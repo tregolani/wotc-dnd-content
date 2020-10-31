@@ -3,7 +3,7 @@
   <info>
     <name>Spells</name>
     <update version="0.1">
-      <file name="spell_list_expansions.xml" url=""/>
+      <file name="spell_list_expansions.xml" url="https://raw.githubusercontent.com/tregolani/Tashas-Cauldron-of-Everything/main/spell_list_expansions.xml"/>
     </update>
   </info>
 
