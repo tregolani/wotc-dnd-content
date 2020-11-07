@@ -16,11 +16,11 @@
       <file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/cleric-peacedomain.xml" />
       <file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/cleric-twilightdomain.xml" />
       <file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/druid-stars.xml" />
-			<file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/monk-astralself.xml" />
+      <file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/monk-astralself.xml" />
       <file name="ranger-feywanderer.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/ranger-feywanderer.xml" />
       <file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/ranger-swarmkeeper.xml" />
-			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/sorcerer-aberrant.xml" />
-			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/sorcerer-clockwork.xml" />
+      <file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/sorcerer-aberrant.xml" />
+      <file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/archetypes/sorcerer-clockwork.xml" />
     
     <file name="spells.xml" url="https://raw.githubusercontent.com/tregolani/WotC-DnD-Content/tashas-cauldron-everything/spells.xml"/>
   </files>
