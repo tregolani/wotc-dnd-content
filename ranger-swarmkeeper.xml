@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Swarmkeeper</name>
+    <description>The Swarmkeeper from Tasha's Cauldron of Everything</description>
+    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
+    <update version="0.1">
+      <file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/Tashas-Cauldron-of-Everything/main/ranger-swarmkeeper.xml" />
+    </update>
+  </info>
+  
+    <element name="Swarmkeeper" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_SWARMKEEPER">
+        <supports>Ranger Archetype</supports>
+        <description>
+            <p>Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.</p>
+            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" />
+            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" />
+            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" />
+            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM" />
+            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL" />
+        </description>
+        <sheet display="false">
+            <description>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts—be they buzzing insects, fluttering birds, slippery squids, or otherwise.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" level="3" />
+            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" level="3" />
+            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" level="7" />
+            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM" level="11" />
+            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL" level="15" />
+        </rules>
+    </element>
+    <element name="Gathered Swarm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM">
+        <description>
+            <p><em>3rd-level Swarmkeeper feature</em></p>
+            <p>A swarm of intangible nature spirits has bonded itself to you and can assist you in battle. Until you die, the swarm remains in your space, crawling on you or flying and skittering around you within your space. You determine its appearance, or you generate its appearance by rolling on the Swarm Appearance table.</p>
+            <p>Once on each of your turns, you can cause the swarm to assist you in one of the following ways, immediately after you hit a creature with an attack:</p>
+            <ul>
+                <li>The attack's target takes 1d6 piercing damage from the swarm.</li>
+                <li>The attack's target must succeed on a Strength saving throw against your spell save DC or be moved by the swarm up to 15 feet horizontally in a direction of your choice.</li>
+                <li>You are moved by the swarm 5 feet horizontally in a direction of your choice.</li>
+            </ul>
+        </description>
+        <sheet action="Free Action" usage="Once per turn">
+            <description>Your swarm assists you in attacking your target in one of the following ways:
+			- Target takes additional 1d6 piercing damage
+			- Target must succeed on a Strength saving throw or be moved 15 feet along the ground.
+			- The swarm moves you 5 feet in any direction along the ground.
+			</description>
+			<description level="11">
+			Your now mighty swarm assists you in attacking your target in one of the following ways:
+			- Target takes additional 1d8 piercing damage
+			- Target must succeed on a Strength saving throw or be moved 15 feet along the ground and be knocked prone.
+			- The swarm moves you 5 feet in any direction along the ground and gives you half cover until the start of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Swarmkeeper Magic" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC">
+        <description>
+            <p><em>3rd-level Swarmkeeper feature</em></p>
+            <p>You learn the <em>mage hand</em> cantrip if you don’t already know it. When you cast it, the hand takes the form of swarming nature spirits.</p>
+            <p>You also learn an additional spell of 1st level or higher when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. These spells count as ranger spells for you, but don’t count against the number of ranger spells you know.</p>
+            <h5>Swarmkeeper Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Ranger Level</td><td>Spell</td></tr>
+                </thead>
+                <tr><td>3rd</td><td><em>faerie fire, mage hand</em></td></tr>
+                <tr><td>5th</td><td><em>web</em></td></tr>
+                <tr><td>9th</td><td><em>gaseous form</em></td></tr>
+                <tr><td>13th</td><td><em>arcane eye</em></td></tr>
+                <tr><td>17th</td><td><em>insect plague</em></td></tr>
+            </table>
+        </description>
+        <sheet>
+            <description>When you cast mage hand, the hand takes the form of swarming nature spirits.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
+            <grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" spellcasting="Ranger" level="3" />
+            <grant type="Spell" id="ID_PHB_SPELL_WEB" spellcasting="Ranger" level="5" />
+            <grant type="Spell" id="ID_PHB_SPELL_GASEOUS_FORM" spellcasting="Ranger" level="9" />
+            <grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE" spellcasting="Ranger" level="13" />
+            <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" spellcasting="Ranger" level="17" />
+        </rules>
+    </element>
+    <element name="Writhing Tide" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE">
+        <description>
+            <p><em>7th-level Swarmkeeper feature</em></p>
+            <p>You can condense part of your swarm into a focused mass that lifts you up. As a bonus action, you gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are incapacitated.</p>
+			<p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+            <description>You gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are incapacitated.</description>
+        </sheet>
+    </element>
+    <element name="Mighty Swarm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM">
+        <description>
+            <p><em>11th-level Swarmkeeper feature</em></p>
+            <p>Your Gathered Swarm grows mightier in the following ways:</p>
+			<ul>
+				<li>The damage of Gathered Swarm increases to 1d8</li>
+				<li>If a creature fails its saving throw against being moved by Gathered Swarm, you can also cause the swarm to knock the creature prone.</li>
+				<li>When you are moved by Gathered Swarm, it gives you half cover until the start of your next turn.</li>
+			</ul>
+        </description>
+        <sheet display="false">
+        </sheet>
+    </element>
+    <element name="Swarming Dispersal" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL">
+        <description>
+            <p><em>15th-level Swarmkeeper feature</em></p>
+            <p>You can discorporate into your swarm, avoiding danger. When you take damage, you can use your reaction to give yourself resistance to that damage. You vanish into your swarm and then teleport to an unoccupied space that you can see within 30 feet of you, where you reappear with the swarm.</p>
+            <p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+            <description>When you take damage, you gain resistance to that damage, and then teleport to an unoccupied space you can see within 30 feet.</description>
+        </sheet>
+    </element>
+</elements>
