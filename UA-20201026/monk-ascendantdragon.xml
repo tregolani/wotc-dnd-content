@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Way of the Ascendant Dragon</name>
+		<description>The Way of the Ascendant Dragon Monastic Tradition from UA: Sublasses, Part 5 (2020)</description>
+		<author url="https://media.wizards.com/2020/dnd/downloads/UA2020_102620_Subclasses05.pdf">UA: Subclasses Part 5 (2020)</author>
+		<update version="0.1">
+			<file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/Tashas-Cauldron-of-Everything/main/monk-astralself.xml" />
+		</update>
+	</info>
+
+	<element name="Way of the Ascendant Dragon" type="Archetype" source="UA: Subclasses Part 5 (2020)" id="ID_UA20201026_ARCHETYPE_WAY_OF_THE_ASCENDANT_DRAGON">
+		<supports>Monastic Tradition</supports>
+		<description>
+			<p>Monks who follow the Way of the Ascendant Dragon revere the power and grandeur of dragons. They alter their own ki to resonate with draconic might, channeling it to augment their prowess in battle, soar through the air, and to bolster their allies. </p>
+			<p>As a follower of this Monastic Tradition, you decide how you unlocked the power of dragons through your ki. The Ascendant Dragon Origin table offers some possibilities.</p>
+			<h5 class="caption">Ascendant Dragon Origin</h5>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Origin</td></tr>
+				</thead>
+				<tr><td>1</td><td>You honed your abilities by observing a dragon and aligning your ki with their world-altering power.</td></tr>
+				<tr><td>2</td><td>A dragon personally took an active role in shaping your inner energy.</td></tr>
+				<tr><td>3</td><td>You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction.</td></tr>
+				<tr><td>4</td><td>You spent long stretches meditating in the region of influence of an ancient dragon's lair, absorbing its ambient magic.</td></tr>
+				<tr><td>5</td><td>You found a scroll written in Draconic that contained inspiring new techniques.</td></tr>
+				<tr><td>6</td><td>After a dream that featured a five-handed dragonborn you awoke with altered ki, reflecting the breaths of dragons.</td></tr>
+			</table>
+			<div element="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_DRACONIC_DISCIPLE" />
+			<div element="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_BREATH_OF_THE_DRAGON" />
+			<div element="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_WINGS_UNFURLED" />
+			<div element="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASPECT_OF_THE_WYRM" />
+			<div element="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASCENDANT_ASPECT" />
+		</description>
+		<sheet>
+			<description>Monks of the Way of the Ascendant Dragon revere the power and grandeur of dragons, altering their own ki to resonate with draconic might.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_DRACONIC_DISCIPLE" level="3" />
+			<grant type="Archetype Feature" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_BREATH_OF_THE_DRAGON" level="3" />
+			<grant type="Archetype Feature" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_WINGS_UNFURLED" level="6" />
+			<grant type="Archetype Feature" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASPECT_OF_THE_WYRM" level="11" />
+			<grant type="Archetype Feature" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASCENDANT_ASPECT" level="17" />
+		</rules>
+	</element>
+	<element name="Draconic Disciple" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_DRACONIC_DISCIPLE">
+		<description>
+			<p><em>3rd-level Way of the Ascendant Dragon feature</em></p>
+			<p>You can channel your draconic ki to imbue your unarmed strikes with the essence of a dragon's breath and to use your connection with draconic creatures to magnify your presence. You gain the following benefits:</p>
+			<ul>
+				<li>When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.</li>
+				<li>If you can't already, you learn to speak, read, and write Draconic.</li>
+				<li>If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can't use it again until you finish a long rest.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You imbue your unarmed strikes with draconic ki:
+			• When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.
+			• You learn to speak, read, and write Draconic.
+			• If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check. Once this feature turns a failure into a success, you can't use it again until you finish a long rest.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+	<element name="Breath of the Dragon" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_BREATH_OF_THE_DRAGON">
+		<description>
+			<p><em>3rd-level Way of the Ascendant Dragon feature</em></p>
+			<p>You can channel your ki into destructive waves of energy like the dragons you emulate. When you take the Attack action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in the area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failure, or half as much damage on a success.</p>
+			<p>At 11th level, the damage of your breath increases to three rolls of your Martial Arts die.</p>
+			<p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 1 ki point to use this feature again.</p>
+			</description>
+		<sheet action="Attack Action" usage="{{proficiency}}/Long Rest, then 1 ki/use">
+			<description>You can replace one of your attacks with a 20-foot cone or a 30-foot line that is 5 feet wide, using a damage type of acid, cold, fire, lightning, or poison. Each creature in the area must make a DC {{ki:dc}} Dexterity saving throw, taking damage of the chosen type equal to 2d{{martial arts:dice}} on a failure, or half as much on a success.</description>
+			<description level="11">You can replace one of your attacks with a 20-foot cone or a 30-foot line that is 5 feet wide, using a damage type of acid, cold, fire, lightning, or poison. Each creature in the area must make a DC {{ki:dc}} Dexterity saving throw, taking damage of the chosen type equal to 3d{{martial arts:dice}} on a failure, or half as much on a success.</description>
+		</sheet>
+	</element>
+	<element name="Wings Unfurled" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_WINGS_UNFURLED">
+		<description>
+			<p><em>6th-level Way of the Ascendant Dragon feature</em></p>
+			<p>When you use your Step of the Wind, you can unfurl spectral draconic wings from your back that vanish at the end of your turn. While the wings exist, you have a flying speed equal to your walking speed.</p>
+			<p>You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 1 additional ki point when you activate Step of the Wind to use this feature again.</p>
+		</description>
+		<sheet action="Step of the Wind" usage="{{proficiency}}/Long Rest, then 1 ki/use">
+			<description>You gain a flying speed of {{speed}} until the end of your turn.</description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Aspect of the Wyrm" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASPECT_OF_THE_WYRM">
+		<description>
+			<p><em>11th-level Way of the Ascendant Dragon feature</em></p>
+			<p>The power of your draconic ki now radiates from you, protecting your allies from harm and punishing any who raise arms against them. As a bonus action, you can create an aura of draconic power that radiates 30 feet from you for 1 minute. Choose acid, cold, fire, lightning, or poison damage, and for the duration, you gain the following effects:</p>
+			<ul>
+				<li>You and your allies within your aura gain resistance to the chosen damage type.</li>
+				<li>Waves of destructive energy flow out from you and your allies when any of you are attacked. When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal an amount of damage of the chosen type equal to one roll of your Martial Arts die to the attacker.</li>
+			</ul>
+			<p>Once you use this bonus action, you can't use it again until you finish a long rest, unless you expend 4 ki points to use it again.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest, then 4 ki/use">
+			<description>you can create an aura of draconic power that radiates 30 feet from you for 1 minute. Choose acid, cold, fire, lightning, or poison damage, and for the duration, you gain the following effects: 
+			 • You and your allies within your aura gain resistance to the chosen damage type.
+			 • When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal 1d{{martial arts:dice}} of the chosen damage type.</description>
+		</sheet>
+	</element>
+	<element name="Ascendant Aspect" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASCENDANT_ASPECT">
+		<description>
+			<p><em>17th-level Way of the Ascendant Dragon feature</em></p>
+			<p>Your draconic ki reaches its peak. You gain the following benefits:</p>
+			<ul>
+				<li>You gain blindsight out to 30 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</li>
+				<li>When you damage a creature with your Breath of the Dragon, the energy clings to the target. At the start of each of the creature's turns, it takes damage of the type your breath dealt equal to one roll of your Martial Arts die. At the end of its turn, the creature can repeat the save, ending the effect on itself on a success.</li>
+				<li>When you activate your Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures you can see within your aura. Those creatures each take 4d10 acid, cold, fire, lightning, or poison damage (your choice).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your draconic ki reaches its peak. You gain the following benefits:
+			 • You gain 30ft blindsight, and can see anything, even an invisible creature, that isn't behind total cover or hidden.
+			 • A creature damaged by Breath of the Dragon takes 1d{{martial arts:dice}} damage at the start of each of its turn. This effect ends after the creature successfully saves at the end of its turn.
+			 • When you activate Aspect of the Wyrm, any creatures you choose within your aura take 4d10 acid, cold, fire, lightning, or poison damage.
+			 </description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
+		</rules>
+	</element>
+</elements>
