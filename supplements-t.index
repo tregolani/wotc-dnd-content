@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>Extra Supplements</name>
+		<name>Supplements (Post-Aurora Discontinuation)</name>
 		<description>Supplements from Wizards of the Coast to expand your core gaming elements.</description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
-		<update version="0.1">
-			<file name="treg-supplements.index" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/treg-supplements.index" />
+		<update version="0.1.1">
+			<file name="supplements-t.index" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements-t.index" />
 		</update>
 	</info>
 	<files>
