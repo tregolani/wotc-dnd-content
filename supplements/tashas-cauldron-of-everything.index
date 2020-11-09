@@ -9,19 +9,19 @@
 		</update>
   </info>
   <files>
-    <file name="source.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/source.xml"/>
+    <file name="source.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/source.xml"/>
     
     <!--archetypes-->
-      <file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/barbarian-wildmagic.xml" />
-      <file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/cleric-peacedomain.xml" />
-      <file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/cleric-twilightdomain.xml" />
-      <file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/druid-stars.xml" />
-      <file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/monk-astralself.xml" />
-      <file name="ranger-feywanderer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/ranger-feywanderer.xml" />
-      <file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/ranger-swarmkeeper.xml" />
-      <file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/archetypes/sorcerer-aberrant.xml" />
-      <file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main//tashas-cauldron-everything/archetypes/sorcerer-clockwork.xml" />
+      <file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-wildmagic.xml" />
+      <file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-peacedomain.xml" />
+      <file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilightdomain.xml" />
+      <file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-stars.xml" />
+      <file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/monk-astralself.xml" />
+      <file name="ranger-feywanderer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-feywanderer.xml" />
+      <file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.xml" />
+      <file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.xml" />
+      <file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.xml" />
     
-    <file name="spells.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/spells.xml"/>
+    <file name="spells.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/spells.xml"/>
   </files>
 </index>
