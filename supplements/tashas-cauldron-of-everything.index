@@ -4,7 +4,7 @@
     <name>Tasha's Cauldron of Everything</name>
 	<description>The wizard Tasha, whose great works include the spell <em>Tasha’s Hideous Laughter</em>, has gathered bits and bobs of precious lore during her illustrious career as an adventurer. Her enemies wouldn’t want these treasured secrets scattered across the multiverse, so in defiance, she has collected and codified these tidbits for the enrichment of all.</description>
 		<author url="https://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Wizards of the Coast</author>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything.index" />
 		</update>
   </info>
@@ -16,6 +16,7 @@
       <file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-peacedomain.xml" />
       <file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilightdomain.xml" />
       <file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-stars.xml" />
+      <file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.xml" />
       <file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/monk-astralself.xml" />
       <file name="ranger-feywanderer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-feywanderer.xml" />
       <file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.xml" />
