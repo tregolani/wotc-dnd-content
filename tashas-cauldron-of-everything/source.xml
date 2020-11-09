@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1.3">
-			<file name="source.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-guide-everything/source.xml" />
+		<update version="0.1.4">
+			<file name="source.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/source.xml" />
 		</update>
 	</info>
 	<element name="Tasha's Cauldron of Everything" type="Source" source="Core" id="ID_WOTC_SOURCE_TASHAS_CAULDRON_OF_EVERYTHING">
