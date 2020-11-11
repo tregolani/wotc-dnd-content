@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses (2020), Part 5</name>
-		<update version="0.1.1">
+		<update version="0.2">
 			<file name="20201026.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/unearthed-arcana/2020/20201026.xml" />
 		</update>
 	</info>
@@ -19,7 +19,8 @@
 			<set name="release">20201026</set>
 		</setters>
 	</element>
-	
+
+<!--Way of Ascendant Dragon Monk-->
 	<element name="Way of the Ascendant Dragon" type="Archetype" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_MONK_WAY_OF_THE_ASCENDANT_DRAGON">
 		<supports>Monastic Tradition</supports>
 		<description>
@@ -134,5 +135,541 @@
 		<rules>
 			<grant type="Vision" id="ID_VISION_BLINDSIGHT" />
 		</rules>
+	</element>
+
+<!--Drakewarden Ranger-->
+	<element name="Drakewarden" type="Archetype" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN">
+		<supports>Ranger Archetype</supports>
+		<description>
+			<p>Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a minor dragon, a drake. This bond allows the ranger to summon the drake to their side and share in the awe-inspiring power wielded by dragons.</p>
+			<p>Consider how your ranger gained their bond with the drake. The Drakewarden Origin table offers some examples.</p>
+			<h5 class="caption">Drakewarden Origin</h5>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Origin</td></tr>
+				</thead>
+				<tr><td>1</td><td>You studied a dragon's scale or claw, or a trinket from its hoard, and created your bond through the token's lingering draconic magic.</td></tr>
+				<tr><td>2</td><td>A secret order of rangers who collect and guard draconic lore taught you their ways.</td></tr>
+				<tr><td>3</td><td>A true dragon gave you a drake egg to care for. When it hatched, the drake bonded to you.</td></tr>
+				<tr><td>4</td><td>You drank a few drops of dragon blood, forever infusing your nature magic with draconic power.</td></tr>
+				<tr><td>5</td><td>An ancient Draconic inscription on a standing stone empowered you when you read it aloud.</td></tr>
+				<tr><td>6</td><td>You had a vivid dream of a mysterious man, accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you.</td></tr>
+			</table>
+			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRACONIC_GIFT" />
+			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKE_COMPANION" />
+			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_BOND_OF_FANG_AND_SCALE" />
+			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH" />
+			<div element="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_PERFECTED_BOND" />
+		</description>
+		<sheet display="false">
+			<description>Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a drake, sharing in the awe-inspiring power of dragons.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRACONIC_GIFT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKE_COMPANION" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_BOND_OF_FANG_AND_SCALE" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_PERFECTED_BOND" level="15" />
+		</rules>
+	</element>
+	<element name="Draconic Gift" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRACONIC_GIFT">
+		<description>
+			<p><em>3rd-level Drakewarden feature</em></p>
+			<p>The bond you share with your drake creates a deeper connection to dragon kind, granting you understanding and empowering your presence. You gain the following benefits:</p>
+			<ul>
+				<li>If you can't already, you learn to speak, read, and write Draconic.</li>
+				<li>You learn the <em>thaumaturgy</em> cantrip, which is a ranger spell for you.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You learn to speak, read, and write Draconic, and know the thaumaturgy cantrip as a ranger spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" spellcasting="Ranger" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+		</rules>
+	</element>
+	<element name="Drake Companion" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKE_COMPANION">
+		<description>
+			<p><em>3rd-level Drakewarden feature</em></p>
+			<p>You can magically summon the drake bound to you. As an action, you can summon the drake, which appears in an unoccupied space of your choice that you can see within 30 feet of you.</p>
+			<p class="indent">The drake is friendly to you and your companions and obeys your commands. See its game statistics in the Drake Companion stat block, which uses your proficiency bonus (PB) in several places. When you summon the drake, choose a damage type listed in its Draconic Essence trait. You can determine the cosmetic characteristics of the drake such as its color, scale texture, or any visible effect of its Draconic Essence; your choice has no effect on its game statistics.</p>
+			<p class="indent">In combat, the drake shares your initiative count, but it makes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the drake can take any action of its choice, not just Dodge.</p>
+			<p class="indent">Once you summon the drake, you can't do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it.</p>
+			<p>The drake remains for a number of hours equal to your proficiency bonus, until it is reduced to 0 hit points, until you use this feature to summon the drake again, or until you die. Anything the drake was wearing or carrying is left behind when your drake vanishes.</p>
+			<h5>Drake Companion</h5>
+			<p><em>Small dragon, any alignment</em></p>
+			<br/>
+			<p class="indent"><strong>Armor Class</strong> 14 + PB(natural armor)</p>
+			<p class="indent"><strong>Hit Points</strong> 5 + five times your ranger level (the drake has a number of hit dice (d10s) equal to your ranger level)</p>
+			<p class="indent"><strong>Speed.</strong> 40ft</p>
+			<table style="text-align:center">
+				<thead>
+					<tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr>
+				</thead>
+				<tr><td>16 (+3)</td><td>12 (+1)</td><td>15 (+2)</td><td>8 (-1)</td><td>14 (+2)</td><td>8 (-1)</td></tr>
+			</table>
+			<p class="indent"><strong>Saving Throws</strong> Dex +1 plus PB, Wis +2 plus PB</p>
+			<p class="indent"><strong>Damage Immunities</strong> determined by the drake's Draconic Essence trait.</p>
+			<p class="indent"><strong>Senses</strong> darkvision 60 ft., passive Perception 12</p>
+			<p class="indent"><strong>Languages</strong> Draconic</p>			
+			<br/>
+			<p class="indent"><strong><em>Draconic Essence.</em></strong> When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake's damage immunity, the damage of its bite, and the damage of its Infused Strikes trait.</p>
+			<h5 style="text-decoration:underline">Actions (Requires Your Bonus Action)</h5>
+			<br/>
+			<p class="indent"><strong><em>Bite.</em></strong> <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus PB damage of a type determined by the drake's Draconic Essence.</p>
+			<h5 style="text-decoration:underline">Reactions</h5>
+			<br/>
+			<p class="indent"><strong><em>Infused Strikes.</em></strong> When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can magically summon the drake bound to you. 
+			The drake appears in an unoccupied space of your choice you can see within 30 feet of you. 
+			In combat, the drake shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can only be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.
+			The drake remains for {{proficiency}} hours, until it is reduced to 0 hit points, or until you use this feature to summon the drake again, or until you die.</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Drake Companion" supports="Drake Companion" />
+
+		</rules>
+	</element>
+	<element name="Bond of Fang and Scale" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_BOND_OF_FANG_AND_SCALE">
+		<description>
+			<p><em>7th-level Drakewarden feature</em></p>
+			<p>The bond you share with your drake intensifies, protecting you and stoking the drake's fury. While your drake is summoned, you and the drake gain the following benefits:.</p>
+			<ul>
+				<li>You gain resistance to the damage type chosen for the drake's Draconic Essence.</li>
+				<li>Choose one of the following: the drake gains a swimming speed of 40 feet and can breathe both air and water, or the drake grows wings and gains a flying speed of 40 feet.</li>
+				<li>The drake's bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>The bond you share with your drake intensifies, protecting you and stoking the drake's fury: 
+			You gain resistance to the damage type chosen for the drake's Draconic Essence. 
+			Your drake gains either swimming speed of 40ft and can breathe both air and water, or wings and gains 40ft of flying speed. 
+			The drake's bite deals an extra 1d6 damage of the type chosen for its Draconic Essence.</description>
+		</sheet>
+	</element>
+	<element name="Drake's Breath" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH">
+		<description>
+			<p><em>11th-level Drakewarden feature</em></p>
+			<p>As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 6d6 damage on a failed save, or half as much on a successful one. This damage increases to 8d6 when you reach 15th level in this class.</p>
+			<p>Once you use this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest, or spell slot of 3rd or higher">
+			<description>You or your drake can exhale a 30-foot cone of acid, cold, fire, lightning, or poison damage (your choice). Each creature in the cone must make a DC {{ranger:dc}} Dexterity saving throw, taking 6d6 damage on a failed save, or half as much on a successful one.</description>
+			<description level="15">You or your drake can exhale a 30-foot cone of acid, cold, fire, lightning, or poison damage (your choice). Each creature in the cone must make a DC {{ranger:dc}} Dexterity saving throw, taking 8d6 damage on a failed save, or half as much on a successful one.</description>
+		</sheet>
+	</element>
+	<element name="Perfected Bond" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_PERFECTED_BOND">
+		<description>
+			<p><em>15th-level Drakewarden feature</em></p>
+			<p>Your bond to your drake reaches the pinnacle of its power. While your drake is summoned, you and the drake gain the following benefits:</p>
+			<ul>
+				<li>The drake grows to Large size.</li>
+				<li>The drake's bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence (for a total of 2d6 extra damage).</li>
+				<li>While either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your bond to your drake reaches the pinnacle of its power. 
+			It grows to Large size, has +2d6 increased Bite elemental damage, and when either you or the drake takes damage, you can use your reaction to grant you or the drake resistance to that instance of damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Companion -->
+	<!--1st level companion-->
+	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_1">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,![level:5]</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Small</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_1</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+	
+	<!--5th level companion-->
+	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_5">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,([level:5],![level:7])</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Small</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_5</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+	
+	<!--7th level companion-->
+	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_7">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,([level:7],![level:9])</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Small</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_7</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+	
+	<!--9th level companion-->
+		<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_9">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,([level:9],![level:13])</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Small</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_9</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+		
+	<!--13th level companion-->
+	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_13">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,([level:13],![level:15])</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Small</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_13</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+		
+	<!--13th level companion-->
+	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_15">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,([level:15],![level:17])</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Large</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_15</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+		
+	<!--13th level companion-->
+	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_17">
+		<supports>Drake Companion</supports>
+		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,[level:17]</requirements>
+		<setters>
+			<set name="strength">16</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 + PB</set>
+			<set name="hp">5 plus five times your ranger level (the drake has a number of hit dice [d10s] equal to your ranger level) </set>
+			<set name="speed">40ft</set>
+			<set name="saves">Dex +1 plus PB, Wis +2 plus PB</set>
+			<set name="immunities">Determined by Draconic Essence trait</set>
+			<set name="type">Dragon</set>
+			<set name="alignment">any alignment</set>
+			<set name="size">Large</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">Draconic</set>
+			<set name="alignment"></set>
+			<set name="challenge">-</set>
+			<set name="traits">ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE</set>
+			<set name="actions">ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_17</set>
+			<set name="reactions">ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES</set>
+		</setters>
+		<rules>
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="proficiency" />
+			<stat name="companion:wisdom:save:proficiency" value="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE" />
+			<!--HP = 5 + 5*(ranger level) -->
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+		</rules>
+	</element>
+	<element name="Draconic Essence" type="Companion Trait" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_TRAIT_DRAKE_DRACONIC_ESSENCE">
+		<description>
+			<p>When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake's damage immunity, the damage of its bite, and the damage of its Infused Strikes trait.</p>
+		</description>
+		<sheet>
+			<description>When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake's damage immunity, the damage of its bite, and the damage of its Infused Strikes trait.</description>
+		</sheet>
+	</element>
+
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_1">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_5">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 3 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_7">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 1d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 3 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_9">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 1d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 4 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_13">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 1d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 5 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_15">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 2d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2d6 + 5 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bite" type="Companion Action" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_ACTION_DRAKE_BITE_LEVEL_17">
+		<description>
+			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit, reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus PB damage of a type determined by the drake's Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2d6 + 6 Draconic Essence type damage.</description>
+		</sheet>
+	</element>
+	
+	<element name="Infused Strikes" type="Companion Reaction" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_REACTION_DRAKE_INFUSED_STRIKES">
+		<description>
+			<p>When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</p>
+		</description>
+		<sheet>
+			<description>When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</description>
+		</sheet>
 	</element>
 </elements>
