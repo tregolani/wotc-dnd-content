@@ -4,7 +4,7 @@
     <name>The Genie</name>
     <description>The Genie Otherworldly Patron from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1">
+    <update version="0.1.1">
       <file name="warlock-genie.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-genie.xml" />
     </update>
   </info>
@@ -275,4 +275,29 @@
 			<description>You can speak your desire to your Genie’s Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class’s spell list, and you don’t need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.</description>
 		</sheet>
 	</element>
+<!--Genie's Vessel Item-->
+	<element name="Genie’s Vessel" type="Item" source="Unearthed Arcana: Subclasses Revisited" id="ID_WOTC_UA20200512_ITEM_GENIES_VESSEL">
+		<description>
+			<p>A magical vessel that grants you a measure of the genie’s power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie’s Vessel table.</p>
+			<h5 class="caption">Genie’s Vessel</h5>
+			<table>
+				<thead>
+					<tr><td class="col-10">d6</td><td>Vessel</td></tr>
+				</thead>
+				<tr><td>1</td><td>Oil lamp</td></tr>
+				<tr><td>2</td><td>Urn</td></tr>
+				<tr><td>3</td><td>Ring with a compartment</td></tr>
+				<tr><td>4</td><td>Stoppered bottle</td></tr>
+				<tr><td>5</td><td>Hollow statuette</td></tr>
+				<tr><td>6</td><td>Ornate lantern</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
 </elements>
