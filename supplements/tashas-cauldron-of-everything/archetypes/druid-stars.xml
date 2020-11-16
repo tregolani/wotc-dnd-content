@@ -4,7 +4,7 @@
     <name>Circle of Stars</name>
     <description>The Circle of Stars from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.3">
+    <update version="0.1.4">
       <file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-stars.xml" />
     </update>
   </info>
@@ -54,10 +54,9 @@
 			<p>If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.</p>
 		</description>
 		<sheet>
-			<description>You've created a tiny star map as part of your study of the heavens that can serve as a spellcasting focus for your druid spells.
-			If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.
-			You know the guidance cantrip.
-			You have the guiding bolt spell prepared and can cast it without expending a spell slot {{proficiency}} times per Long Rest.</description>
+			<description>You've created a tiny star map as part of your study of the heavens that can serve as a spellcasting focus for your druid spells. If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.
+			&#13;&#10;You know the guidance cantrip.
+			&#13;&#10;You have the guiding bolt spell prepared and can cast it without expending a spell slot {{proficiency}} times per Long Rest.</description>
 		</sheet>
 		<rules>
 			<grant type="Item" id="ID_TCOE_ITEM_STAR_MAP"/>
@@ -78,12 +77,12 @@
 			</ul>
 		</description>
 		<sheet action="Bonus Action" usage="Wildshape">
-			<description>You can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.
-			This form sheds bright light in a 10- foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you’re incapacitated, die, or dismiss the form.
-			Whenever you assume your starry form, choose which of the constellations glimmers on your body.</description>
+			<description>You can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast. 
+			&#13;&#10;This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you’re incapacitated, die, or dismiss the form.
+			&#13;&#10;Whenever you assume your starry form, choose which of the constellations glimmers on your body. This constellation lasts for the duration.</description>
 			<description level="10">You can expend a use of your Wild Shape feature to take on a starry form rather than transforming into a beast.
-			This form sheds bright light in a 10- foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you’re incapacitated, die, or dismiss the form.
-			Whenever you assume your starry form, and at the start of your turn while it is still active, choose which of the constellations glimmers on your body.</description>
+			&#13;&#10;This form sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The form lasts for 10 minutes or until you’re incapacitated, die, or dismiss the form.
+			&#13;&#10;Whenever you assume your starry form, and at the start of your turn while it is still active, choose which of the constellations glimmers on your body.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_ARCHER" />
@@ -133,8 +132,8 @@
 		</description>
 		<sheet action="Reaction" usage="{{proficiency}}/Long Rest">
 			<description>Whenever you finish a long rest, you can consult your star map for omens. When you do so, roll a die. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the die:
-			Weal (even). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use roll a d6 and add the number rolled to the total.
-			Woe (odd). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use roll a d6 and subtract the number rolled from the total.</description>
+			&#13;&#10;Weal (even). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use roll a d6 and add the number rolled to the total.
+			&#13;&#10;Woe (odd). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use roll a d6 and subtract the number rolled from the total.</description>
 		</sheet>
 	</element>
 	<element name="Twinkling Constellations" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS">
@@ -144,7 +143,10 @@
 			<p>Moreover, at the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body.</p>
 		</description>
 		<sheet>
-			<description>.</description>
+			<description>The constellations of your Starry Form improve:
+			&#13;&#10;• Archer and Chalice dice increase to 2d8
+			&#13;&#10;• Dragon gains 20ft of flying speed and can hover.
+			&#13;&#10;• At the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body.</description>
 		</sheet>
 	</element>
 	<element name="Full of Stars" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS">
