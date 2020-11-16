@@ -4,7 +4,7 @@
     <name>Circle of Wildfire</name>
     <description>The Circle of Wildfire from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.3">
+    <update version="0.1.4">
       <file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.xml" />
     </update>
   </info>
@@ -96,9 +96,9 @@
 		</description>
 		<sheet action="Action">
 			<description>You can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.
-			The spirit appears in an unoccupied space of your choice you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take 2d6 fire damage.
-			In combat, the wildfire spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can only be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.
-			The wildfire spirit manifests for 1 hour, until it is reduced to 0 hit points, or until you use this feature to summon the spirit again, or until you die.</description>
+			&#13;&#10;The spirit appears in an unoccupied space of your choice you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take 2d6 fire damage.
+			&#13;&#10;In combat, the wildfire spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can only be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.
+			&#13;&#10;The wildfire spirit manifests for 1 hour, until it is reduced to 0 hit points, or until you use this feature to summon the spirit again, or until you die.</description>
 		</sheet>
 		<rules>
 			<select type="Companion" name="Wildfire Spirit" supports="Wildfire Spirit" />
@@ -112,7 +112,7 @@
 		</description>
 		<sheet>
 			<description>Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell. 
-			In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.</description>
+			&#13;&#10;In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.</description>
 		</sheet>
 	</element>
 	<element name="Cauterizing Flames" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES">
@@ -189,10 +189,10 @@
 
 	<element name="Soul Bond" type="Companion Trait" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND">
 		<description>
-			<p>The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.</p>
+			<p>The following numbers increase by 1 when your proficiency bonus (PB) increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.</p>
 		</description>
 		<sheet>
-			<description>The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.</description>
+			<description>The following numbers increase by 1 when your proficiency bonus (PB) increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.</description>
 		</sheet>
 		<rules>
 			<stat name="soul bond:bonus" value="proficiency" bonus="base" />
@@ -206,19 +206,19 @@
 
 	<element name="Flame Seed" type="Companion Action" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED">
 		<description>
-			<p>Requires Your Bonus Action. Ranged Weapon Attack: +4 to hit, range 30 ft., one target you can see. Hit: 1d6 + 2 fire damage.</p>
+			<p>Requires Your Bonus Action. <em>Ranged Weapon Attack:</em> +2 + (PB) to hit, range 30 ft., one target you can see. <em>Hit:</em> 1d6 + (PB) fire damage.</p>
 		</description>
 		<sheet>
-			<description>Requires Your Bonus Action. Ranged Weapon Attack: +4 to hit, range 30 ft., one target you can see. Hit: 1d6 + 2 fire damage.</description>
+			<description>Requires Your Bonus Action.&#13;&#10;Ranged Weapon Attack: +2 + (PB) to hit, range 30 ft., one target you can see. Hit: 1d6 + (PB) fire damage.</description>
 		</sheet>
 	</element>
 
 	<element name="Fiery Teleportation (Recharges after a Short or Long Rest)" type="Companion Action" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION">
 		<description>
-			<p>Requires Your Bonus Action. The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + 2 fire damage.</p>
+			<p><em>Requires Your Bonus Action.</em> The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + (PB) fire damage.</p>
 		</description>
 		<sheet>
-			<description>Requires Your Bonus Action. The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + 2 fire damage.</description>
+			<description>Requires Your Bonus Action.&#13;&#10;The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + (PB) fire damage.</description>
 		</sheet>
 	</element>
 </elements>
