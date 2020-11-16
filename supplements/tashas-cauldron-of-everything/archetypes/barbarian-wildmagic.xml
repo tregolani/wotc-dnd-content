@@ -4,7 +4,7 @@
 		<name>Path of Wild Magic</name>
 		<description>The Barbarian Path of Wild Magic from Tasha's Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-		<update version="0.1.3">
+		<update version="0.1.4">
 			<file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-wildmagic.xml" />
 		</update>
 	</info>
@@ -81,8 +81,8 @@
 		</description>
 		<sheet action="Action">
 			<description>Touch a creature and give them a magical boon:
-			 • For 10 minutes, the creature can roll a d3 and add it to an attack or ability check roll.
-			 • The creature rolls a d3 and regains an expended spell slot equal to or lower than the number rolled. Each creature can only receive this benefit once per long rest.</description>
+			 &#13;&#10;• For 10 minutes, the creature can roll a d3 and add it to an attack or ability check roll.
+			 &#13;&#10;• The creature rolls a d3 and regains an expended spell slot equal to or lower than the number rolled. Each creature can only receive this benefit once per long rest.</description>
 		</sheet>
 	</element>
 	<element name="Unstable Backlash" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_WILD_SOUL_ARCHETYPE_FEATURE_UNSTABLE_BACKLASH">
