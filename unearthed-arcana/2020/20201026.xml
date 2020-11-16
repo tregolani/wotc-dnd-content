@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses (2020), Part 5</name>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="20201026.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/unearthed-arcana/2020/20201026.xml" />
 		</update>
 	</info>
@@ -67,9 +67,9 @@
 		</description>
 		<sheet>
 			<description>You imbue your unarmed strikes with draconic ki:
-			• When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.
-			• You learn to speak, read, and write Draconic.
-			• If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check. Once this feature turns a failure into a success, you can't use it again until you finish a long rest.</description>
+			&#13;&#10;• When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison.
+			&#13;&#10;• You learn to speak, read, and write Draconic.
+			&#13;&#10;• If you fail a Charisma (Intimidation) or Charisma (Persuasion) check, you can use your reaction to reroll the check. Once this feature turns a failure into a success, you can't use it again until you finish a long rest.</description>
 		</sheet>
 		<rules>
 			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
@@ -96,8 +96,6 @@
 		<sheet action="Step of the Wind" usage="{{proficiency}}/Long Rest, then 1 ki/use">
 			<description>You gain a flying speed of {{speed}} until the end of your turn.</description>
 		</sheet>
-		<rules>
-		</rules>
 	</element>
 	<element name="Aspect of the Wyrm" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASPECT_OF_THE_WYRM">
 		<description>
@@ -111,8 +109,8 @@
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest, then 4 ki/use">
 			<description>you can create an aura of draconic power that radiates 30 feet from you for 1 minute. Choose acid, cold, fire, lightning, or poison damage, and for the duration, you gain the following effects: 
-			 • You and your allies within your aura gain resistance to the chosen damage type.
-			 • When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal 1d{{martial arts:dice}} of the chosen damage type.</description>
+			 &#13;&#10;• You and your allies within your aura gain resistance to the chosen damage type.
+			 &#13;&#10;• When you or one of your allies in the aura is hit by an attack made by another creature within the aura, the target that was hit can use their reaction to deal 1d{{martial arts:dice}} of the chosen damage type.</description>
 		</sheet>
 	</element>
 	<element name="Ascendant Aspect" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ASCENDANT_DRAGON_ARCHETYPE_FEATURE_ASCENDANT_ASPECT">
@@ -127,9 +125,9 @@
 		</description>
 		<sheet>
 			<description>Your draconic ki reaches its peak. You gain the following benefits:
-			 • You gain 30ft blindsight, and can see anything, even an invisible creature, that isn't behind total cover or hidden.
-			 • A creature damaged by Breath of the Dragon takes 1d{{martial arts:dice}} damage at the start of each of its turn. This effect ends after the creature successfully saves at the end of its turn.
-			 • When you activate Aspect of the Wyrm, any creatures you choose within your aura take 4d10 acid, cold, fire, lightning, or poison damage.
+			 &#13;&#10;• You gain 30ft blindsight, and can see anything, even an invisible creature, that isn't behind total cover or hidden.
+			 &#13;&#10;• A creature damaged by Breath of the Dragon takes 1d{{martial arts:dice}} damage at the start of each of its turn. This effect ends after the creature successfully saves at the end of its turn.
+			 &#13;&#10;• When you activate Aspect of the Wyrm, any creatures you choose within your aura take 4d10 acid, cold, fire, lightning, or poison damage.
 			 </description>
 		</sheet>
 		<rules>
@@ -223,10 +221,9 @@
 			<p class="indent"><strong><em>Infused Strikes.</em></strong> When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</p>
 		</description>
 		<sheet action="Action">
-			<description>You can magically summon the drake bound to you. 
-			The drake appears in an unoccupied space of your choice you can see within 30 feet of you. 
-			In combat, the drake shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can only be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.
-			The drake remains for {{proficiency}} hours, until it is reduced to 0 hit points, or until you use this feature to summon the drake again, or until you die.</description>
+			<description>You can magically summon the drake bound to you. The drake appears in an unoccupied space of your choice you can see within 30 feet of you. 
+			&#13;&#10;In combat, the drake shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can only be one in its stat block or some other action. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.
+			&#13;&#10;The drake remains for {{proficiency}} hours, until it is reduced to 0 hit points, or until you use this feature to summon the drake again, or until you die.</description>
 		</sheet>
 		<rules>
 			<select type="Companion" name="Drake Companion" supports="Drake Companion" />
@@ -245,9 +242,9 @@
 		</description>
 		<sheet>
 			<description>The bond you share with your drake intensifies, protecting you and stoking the drake's fury: 
-			You gain resistance to the damage type chosen for the drake's Draconic Essence. 
-			Your drake gains either swimming speed of 40ft and can breathe both air and water, or wings and gains 40ft of flying speed. 
-			The drake's bite deals an extra 1d6 damage of the type chosen for its Draconic Essence.</description>
+			&#13;&#10;• You gain resistance to the damage type chosen for the drake's Draconic Essence. 
+			&#13;&#10;• Your drake gains either swimming speed of 40ft and can breathe both air and water, or wings and gains 40ft of flying speed. 
+			&#13;&#10;• The drake's bite deals an extra 1d6 damage of the type chosen for its Draconic Essence.</description>
 		</sheet>
 	</element>
 	<element name="Drake's Breath" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH">
@@ -272,8 +269,10 @@
 			</ul>
 		</description>
 		<sheet>
-			<description>Your bond to your drake reaches the pinnacle of its power. 
-			It grows to Large size, has +2d6 increased Bite elemental damage, and when either you or the drake takes damage, you can use your reaction to grant you or the drake resistance to that instance of damage.</description>
+			<description>Your bond to your drake reaches the pinnacle of its power:
+			&#13;&#10;• It grows to Large size
+			&#13;&#10;• It deals +2d6 increased Bite elemental damage
+			&#13;&#10;• When either you or the drake takes damage, you can use your reaction to grant you or the drake resistance to that instance of damage.</description>
 		</sheet>
 	</element>
 
