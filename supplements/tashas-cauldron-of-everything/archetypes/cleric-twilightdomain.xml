@@ -4,7 +4,7 @@
     <name>Twilight Domain</name>
     <description>The Twilight Domain from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.4">
+    <update version="0.1.5">
       <file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilightdomain.xml" />
     </update>
   </info>
@@ -103,7 +103,7 @@
 		</description>
 		<sheet action="Action" usage="1/Long Rest, or 1 spell slot">
 			<description>You have darkvision up to 300 feet; you can see in dim light as if it were bright light and in darkness as if it were dim light.
-			You can magically give the benefit of this feature to up to {{wisdom:modifier}} creatures you can see within 10 feet of you. The shared benefit lasts for 1 hour.</description>
+			&#13;&#10;You can magically give the benefit of this feature to up to {{wisdom:modifier}} creatures you can see within 10 feet of you. The shared benefit lasts for 1 hour.</description>
 		</sheet>
 		<rules>
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
@@ -130,8 +130,8 @@
 		</description>
 		<sheet alt="Twilight Sanctuary" action="Action" usage="Channel Divinity">
 			<description>You present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature ends its turn in the sphere, you can grant that creature one of these benefits:
-			Give it 1d6+{{level:cleric}} temporary hit points.
-			End one effect causing it to be charmed or frightened.</description>
+			&#13;&#10;• Give it 1d6+{{level:cleric}} temporary hit points.
+			&#13;&#10;• End one effect causing it to be charmed or frightened.</description>
 		</sheet>
 	</element>
 	<element name="Steps of Night" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_TWILIGHT_STEPS_OF_NIGHT">
