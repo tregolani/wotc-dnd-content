@@ -4,7 +4,7 @@
     <name>Peace Domain</name>
     <description>The Peace Domain from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.3">
+    <update version="0.1.4">
       <file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-peacedomain.xml" />
     </update>
   </info>
@@ -95,6 +95,7 @@
 		</description>
 		<sheet action="Action" usage="{{proficiency}}/Long Rest">">
 			<description>You can choose up to {{proficiency}} willing creatures you can see within 30 feet of you (including yourself) and create a magical bond between them. While a bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn. The bond lasts for 10 minutes or until you use this feature again.</description>
+			<description level="17">You can choose up to {{proficiency}} willing creatures you can see within 30 feet of you (including yourself) and create a magical bond between them. While a bonded creature is within 60 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn. The bond lasts for 10 minutes or until you use this feature again.</description>
 		</sheet>
 	</element>
 	<element name="Channel Divinity: Balm of Peace" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_PEACE_CD_BALM_OF_PEACE">
@@ -103,7 +104,7 @@
 			<p>You can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hitpoints to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hitpoint). A creature can receive this healing only once whenever you take this action.</p>
 		</description>
 		<sheet alt="Balm of Peace" action="Action" usage="Channel Divinity">
-			<description>You can move up to your speed, without provoking opportunity attacks.  When you move within 5 feet of any other creature during this action, you can restore a number of hitpoints to that creature equal to 2d6+{{wisdom:modifier}}. A creature can receive this healing only once during this action.</description>
+			<description>You can move up to your speed, without provoking opportunity attacks. When you move within 5 feet of any other creature during this action, you can restore a number of hitpoints to that creature equal to 2d6+{{wisdom:modifier}}. A creature can receive this healing only once during this action.</description>
 		</sheet>
 	</element>
 	<element name="Protective Bond" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_PEACE_PROTECTIVE_BOND">
@@ -113,6 +114,7 @@
 		</description>
 		<sheet action="Reaction">
 			<description>When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 30 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead.</description>
+			<description level="17">When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 60 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead.</description>
 		</sheet>
 	</element>
 	<element name="Potent Spellcasting" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_PEACE_POTENT_SPELLCASTING">
@@ -130,10 +132,8 @@
 			<p>The benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone else's damage, the creature has resistance to that damage.</p>
 		</description>
 		<sheet>
-			<description>
-			<p>Emboldening Bond and Protective Bond now work when the creatures are within 60 feet of each other.</p>
-			<p>When a creature uses Protective Bond, they gain resistance to the damage they take.</p>
-			</description>
+			<description>Emboldening Bond and Protective Bond now work when the creatures are within 60 feet of each other.
+			&#13;&#10;When a creature uses Protective Bond, they gain resistance to the damage they take.</description>
 		</sheet>
 	</element>
 </elements>
