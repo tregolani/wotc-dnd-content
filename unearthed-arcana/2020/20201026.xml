@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses (2020), Part 5</name>
-		<update version="0.2.3">
+		<update version="0.2.4">
 			<file name="20201026.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/unearthed-arcana/2020/20201026.xml" />
 		</update>
 	</info>
@@ -254,8 +254,8 @@
 			<p>Once you use this feature, you can't do so again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest, or spell slot of 3rd or higher">
-			<description>You or your drake can exhale a 30-foot cone of acid, cold, fire, lightning, or poison damage (your choice). Each creature in the cone must make a DC {{ranger:dc}} Dexterity saving throw, taking 6d6 damage on a failed save, or half as much on a successful one.</description>
-			<description level="15">You or your drake can exhale a 30-foot cone of acid, cold, fire, lightning, or poison damage (your choice). Each creature in the cone must make a DC {{ranger:dc}} Dexterity saving throw, taking 8d6 damage on a failed save, or half as much on a successful one.</description>
+			<description>You or your drake can exhale a 30-foot cone of acid, cold, fire, lightning, or poison damage (your choice). Each creature in the cone must make a DC {{spellcasting:dc:wis}} Dexterity saving throw, taking 6d6 damage on a failed save, or half as much on a successful one.</description>
+			<description level="15">You or your drake can exhale a 30-foot cone of acid, cold, fire, lightning, or poison damage (your choice). Each creature in the cone must make a DC {{spellcasting:dc:wis}} Dexterity saving throw, taking 8d6 damage on a failed save, or half as much on a successful one.</description>
 		</sheet>
 	</element>
 	<element name="Perfected Bond" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_PERFECTED_BOND">
