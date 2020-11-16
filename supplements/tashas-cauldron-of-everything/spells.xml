@@ -4,7 +4,7 @@
     <name>Spells</name>
 		<description>New Spells and Expanded Class Spell Lists from Tasha's Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.2.4">
+    <update version="0.2.5">
       <file name="spells.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/spells.xml"/>
     </update>
   </info>
@@ -1554,7 +1554,7 @@
 		</description>
 		<setters>
 			<set name="keywords">psychic</set>
-			<set name="level">1</set>
+			<set name="level">2</set>
 			<set name="school">Enchantment</set>
 			<set name="time">1 action</set>
 			<set name="duration">1 round</set>
