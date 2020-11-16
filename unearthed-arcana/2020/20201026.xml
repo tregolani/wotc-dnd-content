@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses (2020), Part 5</name>
-		<update version="0.2.2">
+		<update version="0.2.3">
 			<file name="20201026.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/unearthed-arcana/2020/20201026.xml" />
 		</update>
 	</info>
@@ -502,7 +502,7 @@
 		</rules>
 	</element>
 		
-	<!--13th level companion-->
+	<!--15th level companion-->
 	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_15">
 		<supports>Drake Companion</supports>
 		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,([level:15],![level:17])</requirements>
@@ -547,7 +547,7 @@
 		</rules>
 	</element>
 		
-	<!--13th level companion-->
+	<!--17th level companion-->
 	<element name="Drake Companion" type="Companion" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_COMPANION_DRAKEWARDEN_DRAKE_LEVEL_17">
 		<supports>Drake Companion</supports>
 		<requirements>ID_WOTC_UA20201026_ARCHETYPE_DRAKEWARDEN,[level:17]</requirements>
@@ -605,7 +605,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+5), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 
@@ -614,7 +614,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+6), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 3 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 3 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 
@@ -623,7 +623,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+6), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 1d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 3 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 3 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 	
@@ -632,7 +632,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+7), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 1d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 4 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 4 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 	
@@ -641,7 +641,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+8), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 1d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 5 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 1d6 + 5 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 	
@@ -650,7 +650,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+8), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 2d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2d6 + 5 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2d6 + 5 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 	
@@ -659,7 +659,7 @@
 			<p>Requires Your Bonus Action. <em>Melee Weapon Attack:</em> +3 plus PB to hit (+9), reach 5 ft., one target. <em>Hit:</em> 1d6 piercing damage plus 2d6 + PB damage of a type determined by the drake's Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2d6 + 6 Draconic Essence type damage.</description>
+			<description action="Your Bonus Action">Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 1d6 piercing + 2d6 + 6 Draconic Essence type damage.</description>
 		</sheet>
 	</element>
 	
@@ -668,7 +668,7 @@
 			<p>When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</p>
 		</description>
 		<sheet>
-			<description>When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</description>
+			<description action="Drake's Reaction">When another creature within 30 feet of the drake that it can see hits with a weapon attack, the drake infuses the strike with its essence, causing the attack to deal an extra 1d6 damage of the type determined by its Draconic Essence.</description>
 		</sheet>
 	</element>
 </elements>
