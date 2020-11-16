@@ -45,7 +45,8 @@
             <description>You have {{psionic-energy:dice}} Psionic Energy dice, which are each a d{{psionic-energy:size}}. These can be used to fuel certain abilities, and you regain all expended Psionic Energy dice when you finish a long rest.</description>
         </sheet>
         <rules>
-            <stat name="psionic-energy:dice" value="proficiency" bonus="double" />
+            <stat name="psionic-energy:dice" value="proficiency" />
+            <stat name="psionic-energy:dice" value="proficiency" />
             <stat name="psionic-energy:size" value="6" />
             <stat name="psionic-energy:size" value="2" requirements="[level:5]" />
             <stat name="psionic-energy:size" value="2" requirements="[level:11]" />
