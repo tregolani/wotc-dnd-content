@@ -4,33 +4,33 @@
     <name>Circle of Wildfire</name>
     <description>The Circle of Wildfire from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.4">
+    <update version="0.1.5">
       <file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.xml" />
     </update>
   </info>
 
-	<element name="Circle of Wildfire" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_CIRCLE_OF_WILDFIRE">
+	<element name="Circle of Wildfire" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_CIRCLE_OF_WILDFIRE">
 		<supports>Druid Circle</supports>
 		<description>
 			<p>Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth. These druids bond with a primal spirit that harbors destructive tendencies, allowing the druids to use their power to create controlled flames that help flora and fauna reproduce and grow.</p>
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_REVIVAL" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_REVIVAL" />
 		</description>
 		<sheet display="false">
 			<description>Druids who are members of the Circle of Wildfire understand the necessity of destruction, such as how a forest fire promotes growth.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" level="2" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" level="2" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" level="6" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES" level="10" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_REVIVAL" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_REVIVAL" level="14" />
 		</rules>
 	</element>
-	<element name="Circle Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS">
+	<element name="Circle Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CIRCLE_SPELLS">
 		<description>
 			<p><em>2nd-level Circle of Wildfire feature</em></p>
 			<p>You have formed a bond with a wildfire spirit, a primal being of creation and destruction. Your link with this spirit grants you access to some spells when you reach certain levels in this class, as shown on the Circle of Wildfire Spells table.</p>
@@ -61,7 +61,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_MASS_CURE_WOUNDS" level="9" spellcasting="Druid" prepared="true" />
 		</rules>
 	</element>
-	<element name="Summon Wildfire Spirit" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT">
+	<element name="Summon Wildfire Spirit" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_SUMMON_WILDFIRE_SPIRIT">
 		<description>
 			<p><em>2nd-level Circle of Wildfire feature</em></p>
 			<p>You can summon the primal spirit bound to your soul. As an action, you can expend one use of your Wild Shape feature to summon your wildfire spirit, rather than assuming a beast form.</p>
@@ -104,7 +104,7 @@
 			<select type="Companion" name="Wildfire Spirit" supports="Wildfire Spirit" />
 		</rules>
 	</element>
-	<element name="Enhanced Bond" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND">
+	<element name="Enhanced Bond" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_ENHANCED_BOND">
 		<description>
 			<p><em>6th-level Circle of Wildfire feature</em></p>
 			<p>The bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.</p>
@@ -115,7 +115,7 @@
 			&#13;&#10;In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.</description>
 		</sheet>
 	</element>
-	<element name="Cauterizing Flames" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES">
+	<element name="Cauterizing Flames" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_CAUTERIZING_FLAMES">
 		<description>
 			<p><em>10th-level Circle of Wildfire feature</em></p>
 			<p>You gain the ability to turn death into magical flames that can heal or incinerate. When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals 2d10 + your Wisdom modifier.</p>
@@ -125,7 +125,7 @@
 			<description>When a Small or larger creature that you can see dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature or deal fire damage to it. The healing or damage equals 2d10+{{wisdom:modifier}}.</description>
 		</sheet>
 	</element>
-	<element name="Blazing Revival" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_REVIVAL">
+	<element name="Blazing Revival" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WILDFIRE_BLAZING_REVIVAL">
 		<description>
 			<p><em>14th-level Circle of Wildfire feature</em></p>
 			<p>The bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall unconscious, you can cause the spirit to drop to 0 hit points. You then regain half your total hit points and immediately rise to your feet.</p>
@@ -137,9 +137,9 @@
 	</element>
 
 	<!-- Companion -->
-	<element name="Wildfire Spirit" type="Companion" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_WILDFIRE_SPIRIT">
+	<element name="Wildfire Spirit" type="Companion" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_WILDFIRE_SPIRIT">
 		<supports>Wildfire Spirit</supports>
-		<requirements>ID_TCOE_ARCHETYPE_CIRCLE_OF_WILDFIRE</requirements>
+		<requirements>ID_WOTC_TCOE_ARCHETYPE_CIRCLE_OF_WILDFIRE</requirements>
 		<setters>
 			<set name="strength">10</set>
 			<set name="dexterity">14</set>
@@ -161,8 +161,8 @@
 			<set name="languages">understands the languages you speak</set>
 			<set name="alignment">any chaotic alignment</set>
 			<set name="challenge">1/4</set>
-			<set name="traits">ID_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND</set>
-			<set name="actions">ID_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED,ID_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION</set>
+			<set name="traits">ID_WOTC_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND</set>
+			<set name="actions">ID_WOTC_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED,ID_WOTC_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION</set>
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="13" />
@@ -174,7 +174,7 @@
 			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
-			<grant type="Companion Trait" id="ID_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND" />
+			<grant type="Companion Trait" id="ID_WOTC_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND" />
 			<!-- wildfire spirit’s Constitution modifier + your Wisdom modifier + five times your level in this class -->
 			<stat name="alternative:hp:max" value="companion:constitution:modifier" bonus="spirit-CON Mod" />
 			<stat name="alternative:hp:max" value="wisdom:modifier" bonus="WIS Mod" />
@@ -187,7 +187,7 @@
 		</rules>
 	</element>
 
-	<element name="Soul Bond" type="Companion Trait" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND">
+	<element name="Soul Bond" type="Companion Trait" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_TRAIT_WILDFIRE_SPIRIT_SOUL_BOND">
 		<description>
 			<p>The following numbers increase by 1 when your proficiency bonus (PB) increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.</p>
 		</description>
@@ -204,7 +204,7 @@
 		</rules>
 	</element>
 
-	<element name="Flame Seed" type="Companion Action" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED">
+	<element name="Flame Seed" type="Companion Action" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FLAME_SEED">
 		<description>
 			<p>Requires Your Bonus Action. <em>Ranged Weapon Attack:</em> +2 + (PB) to hit, range 30 ft., one target you can see. <em>Hit:</em> 1d6 + (PB) fire damage.</p>
 		</description>
@@ -213,7 +213,7 @@
 		</sheet>
 	</element>
 
-	<element name="Fiery Teleportation (Recharges after a Short or Long Rest)" type="Companion Action" source="Tasha's Cauldron of Everything" id="ID_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION">
+	<element name="Fiery Teleportation (Recharges after a Short or Long Rest)" type="Companion Action" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_COMPANION_ACTION_WILDFIRE_SPIRIT_FIERY_TELEPORTATION">
 		<description>
 			<p><em>Requires Your Bonus Action.</em> The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + (PB) fire damage.</p>
 		</description>
