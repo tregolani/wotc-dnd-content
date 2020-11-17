@@ -4,7 +4,7 @@
 		<name>Aberrant Mind</name>
 		<description>The Aberrant Mind Sorcerous Origin from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.xml" />
 		</update>
 	</info>
@@ -52,7 +52,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_TCOE_SPELL_MIND_SLIVER" level="1" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER" level="1" spellcasting="Sorcerer" />
 			<grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" level="1" spellcasting="Sorcerer" replace="true" supports="1,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 			<grant type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="1" spellcasting="Sorcerer" replace="true" supports="1,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="3" spellcasting="Sorcerer" replace="true" supports="2,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
@@ -60,7 +60,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_HUNGER_OF_HADAR" level="5" spellcasting="Sorcerer" replace="true" supports="3,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 			<grant type="Spell" id="ID_PHB_SPELL_SENDING" level="5" spellcasting="Sorcerer" replace="true" supports="3,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 			<grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_TCOE_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
 		</rules>
