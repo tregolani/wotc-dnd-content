@@ -2,14 +2,14 @@
 <elements>
   <info>
     <name>Twilight Domain</name>
-    <description>The Twilight Domain from Tasha's Cauldron of Everything</description>
-    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.6">
+    <description>The Twilight Domain from Tasha’s Cauldron of Everything</description>
+    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+    <update version="0.1.7">
       <file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilightdomain.xml" />
     </update>
   </info>
   
-	<element name="Twilight Domain" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_TWILIGHT_DOMAIN">
+	<element name="Twilight Domain" type="Archetype" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_TWILIGHT_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<p>The twilit transition from light into darkness often brings calm and even joy, as the day's labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night.</p>
@@ -51,7 +51,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_TWILIGHT_SHROUD" level="17" />
 		</rules>
 	</element>
-	<element name="Domain Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_SPELLS">
+	<element name="Domain Spells" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_SPELLS">
 		<description>
 			<p>You gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
 			<h5>Twilight Domain Spells</h5>
@@ -82,7 +82,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_MISLEAD" level="9" spellcasting="Cleric" prepared="true" />
 		</rules>
 	</element>
-	<element name="Bonus Proficiencies" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_BONUS_PROFICIENCIES">
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_BONUS_PROFICIENCIES">
 		<description>
 			<p><em>1st-level Twilight Domain feature</em></p>
 			<p>You gain proficiency with martial weapons and heavy armor.</p>
@@ -95,7 +95,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
 		</rules>
 	</element>
-	<element name="Eyes of Night" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_EYES_OF_NIGHT">
+	<element name="Eyes of Night" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_EYES_OF_NIGHT">
 		<description>
 			<p><em>1st-level Twilight Domain feature</em></p>
 			<p>You can see through the deepest gloom. You have darkvision out to a range of 300 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.</p>
@@ -109,7 +109,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
 	</element>
-	<element name="Vigilant Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_VIGILANT_BLESSING">
+	<element name="Vigilant Blessing" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_VIGILANT_BLESSING">
 		<description>
 			<p><em>1st-level Twilight Domain feature</em></p>
 			<p>The night has taught you to be vigilant. As an action, you give one creature you touch (including possibly yourself) advantage on the next initiative roll the creature makes. This benefit ends immediately after the roll or if you use this feature again.</p>
@@ -118,7 +118,7 @@
 			<description>You give one creature you touch advantage on the next initiative roll the creature makes. This benefit ends immediately after the roll or if you use this feature again.</description>
 		</sheet>
 	</element>
-	<element name="Channel Divinity: Twilight Sanctuary" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_CD_TWILIGHT_SANCTUARY">
+	<element name="Channel Divinity: Twilight Sanctuary" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_CD_TWILIGHT_SANCTUARY">
 		<description>
 			<p><em>2nd-level Twilight Domain feature</em></p>
 			<p>You can use your Channel Divinity to refresh your allies with soothing twilight.</p>
@@ -134,7 +134,7 @@
 			&#13;&#10;• End one effect causing it to be charmed or frightened.</description>
 		</sheet>
 	</element>
-	<element name="Steps of Night" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_STEPS_OF_NIGHT">
+	<element name="Steps of Night" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_STEPS_OF_NIGHT">
 		<description>
 			<p><em>6th-level Twilight Domain feature</em></p>
 			<p>You can draw on the mystical power of night to rise into the air. As a bonus aciton when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
@@ -143,7 +143,7 @@
 			<description>You can magically give yourself a flying speed of {{speed}} for 1 minute when in dim light or darkness.</description>
 		</sheet>
 	</element>
-	<element name="Divine Strike" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DIVINE_STRIKE">
+	<element name="Divine Strike" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DIVINE_STRIKE">
 		<description>
 			<p><em>8th-level Twilight Domain feature</em></p>
 			<p>You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage. When you reach 14th level, the extra damage increases to 2d8.</p>
@@ -153,7 +153,7 @@
 			<description level="14">Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 psychic damage.</description>
 		</sheet>
 	</element>
-	<element name="Twilight Shroud" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_TWILIGHT_SHROUD">
+	<element name="Twilight Shroud" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_TWILIGHT_SHROUD">
 		<description>
 			<p><em>17th-level Twilight Domain feature</em></p>
 			<p>The twilight that you summon offers a protective embrace: you and your allies have half cover while in the sphere created by your Twilight Sanctuary.</p>
