@@ -4,33 +4,33 @@
     <name>Swarmkeeper</name>
     <description>The Swarmkeeper from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.3">
+    <update version="0.1.4">
       <file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.xml" />
     </update>
   </info>
   
-    <element name="Swarmkeeper" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_SWARMKEEPER">
+    <element name="Swarmkeeper" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_SWARMKEEPER">
         <supports>Ranger Archetype</supports>
         <description>
             <p>Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.</p>
-            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" />
-            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" />
-            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" />
-            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM" />
-            <div element="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL" />
         </description>
         <sheet display="false">
             <description>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts—be they buzzing insects, fluttering birds, slippery squids, or otherwise.</description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" level="3" />
-            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" level="3" />
-            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" level="7" />
-            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM" level="11" />
-            <grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL" level="15" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE" level="7" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM" level="11" />
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL" level="15" />
         </rules>
     </element>
-    <element name="Gathered Swarm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM">
+    <element name="Gathered Swarm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_GATHERED_SWARM">
         <description>
             <p><em>3rd-level Swarmkeeper feature</em></p>
             <p>A swarm of intangible nature spirits has bonded itself to you and can assist you in battle. Until you die, the swarm remains in your space, crawling on you or flying and skittering around you within your space. You determine its appearance, or you generate its appearance by rolling on the Swarm Appearance table.</p>
@@ -54,7 +54,7 @@
 			- The swarm moves you 5 feet in any direction along the ground and gives you half cover until the start of your next turn.</description>
         </sheet>
     </element>
-    <element name="Swarmkeeper Magic" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC">
+    <element name="Swarmkeeper Magic" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC">
         <description>
             <p><em>3rd-level Swarmkeeper feature</em></p>
             <p>You learn the <em>mage hand</em> cantrip if you don’t already know it. When you cast it, the hand takes the form of swarming nature spirits.</p>
@@ -83,7 +83,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_INSECT_PLAGUE" spellcasting="Ranger" level="17" />
         </rules>
     </element>
-    <element name="Writhing Tide" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE">
+    <element name="Writhing Tide" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_WRITHING_TIDE">
         <description>
             <p><em>7th-level Swarmkeeper feature</em></p>
             <p>You can condense part of your swarm into a focused mass that lifts you up. As a bonus action, you gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are incapacitated.</p>
@@ -93,7 +93,7 @@
             <description>You gain a flying speed of 10 feet and can hover. This effect lasts for 1 minute or until you are incapacitated.</description>
         </sheet>
     </element>
-    <element name="Mighty Swarm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM">
+    <element name="Mighty Swarm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_MIGHTY_SWARM">
         <description>
             <p><em>11th-level Swarmkeeper feature</em></p>
             <p>Your Gathered Swarm grows mightier in the following ways:</p>
@@ -106,7 +106,7 @@
         <sheet display="false">
         </sheet>
     </element>
-    <element name="Swarming Dispersal" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL">
+    <element name="Swarming Dispersal" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMING_DISPERSAL">
         <description>
             <p><em>15th-level Swarmkeeper feature</em></p>
             <p>You can discorporate into your swarm, avoiding danger. When you take damage, you can use your reaction to give yourself resistance to that damage. You vanish into your swarm and then teleport to an unoccupied space that you can see within 30 feet of you, where you reappear with the swarm.</p>
