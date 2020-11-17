@@ -4,37 +4,37 @@
 		<name>Way of Mercy</name>
 		<description>The Way of Mercy Monastic Tradition from Tasha's Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-		<update version="0.1">
+		<update version="0.1.1">
 			<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/monk-mercy.xml" />
 		</update>
 	</info>
 
-	<element name="Way of Mercy" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_WAY_OF_MERCY">
+	<element name="Way of Mercy" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_WAY_OF_MERCY">
 		<supports>Monastic Tradition</supports>
 		<description>
 			<p>Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help,they bring a swift end as an act of mercy.</p>
 			<p class="indent">Those who follow the Way of Mercy might be members of a religious order, administering to the needy and making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.</p>
 			<p class="indent">The walkers of this way usually don simple robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.</p>
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_MERCY_PHYSICIANS_TOUCH" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_MERCY_FLURRY_OF_HEALING_AND_HARM" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HAND_OF_ULTIMATE_MERCY" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_PHYSICIANS_TOUCH" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_FLURRY_OF_HEALING_AND_HARM" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HAND_OF_ULTIMATE_MERCY" />
 		</description>
 		<sheet display="false">
 			<description>You learned manipulate the life force of others to bring aid to those in need.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY" level="3" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING" level="3" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM" level="3" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_PHYSICIANS_TOUCH" level="6" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_FLURRY_OF_HEALING_AND_HARM" level="11" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HAND_OF_ULTIMATE_MERCY" level="17" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_PHYSICIANS_TOUCH" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_FLURRY_OF_HEALING_AND_HARM" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HAND_OF_ULTIMATE_MERCY" level="17" />
 		</rules>
 	</element>
-	<element name="Implements of Mercy" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY">
+	<element name="Implements of Mercy" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_IMPLEMENTS_OF_MERCY">
 		<description>
 			<p><em>3rd-level Way of Mercy feature</em></p>
 			<p>You gain proficiency in the Insight and Medicine skill, and you gain proficiency with the herbalism kit.</p>
@@ -61,7 +61,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
 		</rules>
 	</element>
-	<element name="Hands of Healing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING">
+	<element name="Hands of Healing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HEALING">
 		<description>
 			<p><em>3rd-level Way of Mercy feature</em></p>
 			<p>Your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier.</p>
@@ -74,7 +74,7 @@
 			&#13;&#10;11th-level Upgrade: When you use your Flurry of Blows, you can replace each of the unarmed strikes with a use of this feature without spending its ki cost.</description>
 		</sheet>
 	</element>
-	<element name="Hands of Harm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM">
+	<element name="Hands of Harm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HANDS_OF_HARM">
 		<description>
 			<p><em>3rd-level Way of Mercy feature</em></p>
 			<p>You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature only once on each of your turns.</p>
@@ -85,7 +85,7 @@
 			&#13;&#10;11th-level Upgrade: When you use your Flurry of Blows, you can use Hand of Harm with one of the unarmed strikes without spending its ki cost.</description>
 		</sheet>
 	</element>
-	<element name="Physician's Touch" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_PHYSICIANS_TOUCH">
+	<element name="Physician's Touch" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_PHYSICIANS_TOUCH">
 		<description>
 			<p><em>6th-level Way of Mercy feature</em></p>
 			<p>You can administer even greater cures with a touch and if you feel it's necessary, you can use your knowledge to cause harm.</p>
@@ -97,7 +97,7 @@
 			&#13;&#10;When you use Hand of Harm on a creature, you can subject that creature to the poisoned condition until the end of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Flurry of Healing and Harm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_FLURRY_OF_HEALING_AND_HARM">
+	<element name="Flurry of Healing and Harm" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_FLURRY_OF_HEALING_AND_HARM">
 		<description>
 			<p><em>11th-level Way of Mercy feature</em></p>
 			<p>You can now mete out a flurry of comfort and hurt. When you use Flurry of Blows, you can now replace each of the unarmed strikes with a use of your Hand of Healing without spending ki points for the healing.</p>
@@ -109,7 +109,7 @@
 			</description>
 		</sheet>
 	</element>
-	<element name="Hand of Ultimate Mercy" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_MERCY_HAND_OF_ULTIMATE_MERCY">
+	<element name="Hand of Ultimate Mercy" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_MERCY_HAND_OF_ULTIMATE_MERCY">
 		<description>
 			<p><em>17th-level Way of Mercy feature</em></p>
 			<p>Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.</p>
