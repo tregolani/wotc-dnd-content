@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Unearthed Arcana: Subclasses (2020), Part 5</name>
-		<update version="0.2.4">
+		<update version="0.2.5">
 			<file name="20201026.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/unearthed-arcana/2020/20201026.xml" />
 		</update>
 	</info>
@@ -247,7 +247,7 @@
 			&#13;&#10;• The drake's bite deals an extra 1d6 damage of the type chosen for its Draconic Essence.</description>
 		</sheet>
 	</element>
-	<element name="Drake's Breath" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH">
+	<element name="Drake’s Breath" type="Archetype Feature" source="UA: Subclasses Part 5 (2020)" id="ID_WOTC_UA20201026_ARCHETYPE_FEATURE_DRAKEWARDEN_DRAKES_BREATH">
 		<description>
 			<p><em>11th-level Drakewarden feature</em></p>
 			<p>As an action, you can exhale a 30-foot cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 6d6 damage on a failed save, or half as much on a successful one. This damage increases to 8d6 when you reach 15th level in this class.</p>
