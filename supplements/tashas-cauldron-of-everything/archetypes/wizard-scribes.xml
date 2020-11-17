@@ -2,14 +2,14 @@
 <elements>
   <info>
     <name>Order of Scribes</name>
-    <description>The Order of Scribes Arcane Tradition from Tasha's Cauldron of Everything</description>
-    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.1">
+    <description>The Order of Scribes Arcane Tradition from Tasha’s Cauldron of Everything</description>
+    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+    <update version="0.1.2">
       <file name="wizard-scribes.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-scribes.xml" />
     </update>
   </info>
   
-	<element name="Order of Scribes" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_WIZARD_ORDER_OF_SCRIBES">
+	<element name="Order of Scribes" type="Archetype" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_WIZARD_ORDER_OF_SCRIBES">
 		<supports>Arcane Tradition</supports>
 		<description>
 			<p>Magic of the book—that’s what many folk call wizardry. The name is apt, given how much time wizards spend poring over tomes and penning theories about the nature of magic. It’s rare to see wizards traveling without books and scrolls sprouting from their bags, and a wizard would go to great lengths to plumb an archive of ancient knowledge.</p>
@@ -29,7 +29,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_ONE_WITH_THE_WORD" level="14" />
 		</rules>
 	</element>
-	<element name="Wizardly Quill" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_WIZARDLY_QUILL">
+	<element name="Wizardly Quill" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_WIZARDLY_QUILL">
 		<description>
 			<p><em>2nd-level Order of Scribes feature</em></p>
 			<p>As a bonus action, you can magically create a Tiny quill in your free hand. The magic quill has the following properties:</p>
@@ -48,7 +48,7 @@
 			This quill disappears if you create another one or if you die.</description>
 		</sheet>
 	</element>
-	<element name="Awakened Spellbook" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_AWAKENED_SPELLBOOK">
+	<element name="Awakened Spellbook" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_AWAKENED_SPELLBOOK">
 		<description>
 			<p><em>2nd-level Order of Scribes feature</em></p>
 			<p>Using specially prepared inks and ancient incantations passed down by your wizardly order, you have awakened an arcane sentience within your spellbook.</p>
@@ -68,7 +68,7 @@
 			If necessary, you can replace the book over the course of a short rest by using your Wizardly Quill to write arcane sigils in a blank book or a magic spellbook to which you’re attuned. At the end of the rest, your spellbook’s consciousness is summoned into the new book, which the consciousness transforms into your spellbook, along with all its spells. If the previous book still existed somewhere, all the spells vanish from its pages.</description>
 		</sheet>
 	</element>
-	<element name="Manifest Mind" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_MANIFEST_MIND">
+	<element name="Manifest Mind" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_MANIFEST_MIND">
 		<description>
 			<p><em>6th-level Order of Scribes feature</em></p>
 			<p>You can conjure forth the mind of your Awakened Spellbook. As a bonus action while the book is on your person, you can cause the mind to manifest as a Tiny spectral object, hovering in an unoccupied space of your choice within 60 feet of you. The spectral mind is intangible and doesn’t occupy its space, and it sheds dim light in a 10-foot radius. It looks like a ghostly tome, a cascade of text, or a scholar from the past (your choice).</p>
@@ -84,7 +84,7 @@
 			As a bonus action, you can cause the spectral mind to hover up to 30 feet to an unoccupied space that you or it can see. It can pass through creatures but not objects. The spectral mind stops manifesting if it is ever more than 300 feet away from you, if someone casts dispel magic on it, if the Awakened Spellbook is destroyed, if you die, or if you dismiss the spectral mind as a bonus action.</description>
 		</sheet>
 	</element>
-	<element name="Master Scrivener" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_MASTER_SCRIVENER">
+	<element name="Master Scrivener" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_MASTER_SCRIVENER">
 		<description>
 			<p><em>10th-level Order of Scribes feature</em></p>
 			<p>Whenever you finish a long rest, you can create one magic scroll by touching your Wizardly Quill to a blank piece of paper or parchment and causing one spell from your Awakened Spellbook to be copied onto the scroll. The spellbook must be within 5 feet of you when you make the scroll.</p>
@@ -97,7 +97,7 @@
 			You are also adept at crafting spell scrolls. The gold and time you must spend to make such a scroll are halved if you use your Wizardly Quill.</description>
 		</sheet>
 	</element>
-	<element name="One with the Word" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_ONE_WITH_THE_WORD">
+	<element name="One with the Word" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_OF_SCRIBES_ONE_WITH_THE_WORD">
 		<description>
 			<p><em>14th-level Order of Scribes feature</em></p>
 			<p>Your connection to your Awakened Spellbook has become so profound that your soul has become entwined with it. While the book is on your person, you have advantage on all Intelligence (Arcana) checks, as the spellbook helps you remember magical lore.</p>
