@@ -4,12 +4,12 @@
 		<name>Path of the Beast</name>
 		<description>The Barbarian Path of the Beast from Tasha's Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-		<update version="0.1">
+		<update version="0.1.1">
 			<file name="barbarian-beast.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-beast.xml" />
 		</update>
 	</info>
 
-	<element name="Path of the Beast" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_PATH_OF_THE_BEAST">
+	<element name="Path of the Beast" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_PATH_OF_THE_BEAST">
 		<supports>Primal Path</supports>
 		<description>
 			<p>Barbarians who walk the Path of Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.</p>
@@ -24,22 +24,22 @@
 				<tr><td>3</td><td>A fey spirit gifted you with the ability to adopt different bestial aspects.</td></tr>
 				<tr><td>4</td><td>An ancient animal spirit dwells within you, allowing you to walk this path.</td></tr>
 			</table>
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" />
 		</description>
 		<sheet display="false">
 			<description>You draw your rage from a bestial spark burning within your souls.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" level="3" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" level="6" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" level="10" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" level="14" />
 		</rules>
 	</element>
-	<element name="Form of the Beast" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST">
+	<element name="Form of the Beast" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST">
 		<description>
 			<p><em>3rd-level Path of the Beast feature</em></p>
 			<p>When you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural melee weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.</p>
@@ -57,7 +57,7 @@
 			&#13;&#10;• Tail. Your tail deals 1d8 piercing damage on a hit and has the reach property. As a reaction to being hit by a creature within 10 feet of you, roll a d8 and add the number to your AC, potentially causing the attack to miss you.</description>
 		</sheet>
 	</element>
-	<element name="Bestial Soul" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL">
+	<element name="Bestial Soul" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL">
 		<description>
 			<p><em>6th-level Path of the Beast feature</em></p>
 			<p>The feral spirit within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
@@ -75,7 +75,7 @@
 			&#13;&#10;• When you jump, you can make a Athletics check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.</description>
 		</sheet>
 	</element>
-	<element name="Infectious Fury" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY">
+	<element name="Infectious Fury" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY">
 		<description>
 			<p><em>10th-level Path of the Beast feature</em></p>
 			<p>When you hit a creature with your natural weapons while you are raging, the beast within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):</p>
@@ -96,7 +96,7 @@
 			<stat name="infectious fury:dc" value="constitution:modifier" />
 		</rules>
 	</element>
-	<element name="Call the Hunt" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT">
+	<element name="Call the Hunt" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT">
 		<description>
 			<p><em>14th-level Path of the Beast feature</em></p>
 			<p>The beast within grows so powerful that you can spread its ferocity to others and gain resilience from them joining your hunt. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). You gain 5 temporary hit points for each creature that accepts this feature. Until the rage ends, the chosen creatures can each use the following benefit once on each of their turns: when the creature hits a target with an attack roll and deals damage to it, the creature can roll a d6 and gain a bonus to the damage equal to the number rolled.</p>
