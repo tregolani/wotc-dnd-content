@@ -2,14 +2,14 @@
 <elements>
   <info>
     <name>Oath of the Watchers</name>
-    <description>The Paladin Oath of the Watchers from Tasha's Cauldron of Everything</description>
-    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.4">
+    <description>The Paladin Oath of the Watchers from Tasha’s Cauldron of Everything</description>
+    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+    <update version="0.1.5">
       <file name="paladin-watchers.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/paladin-watchers.xml" />
     </update>
   </info>
 
-	<element name="Oath of the Watchers" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_OATH_OF_THE_WATCHERS">
+	<element name="Oath of the Watchers" type="Archetype" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_OATH_OF_THE_WATCHERS">
 		<supports>Sacred Oath</supports>
 		<description>
 			<p>The Oath of the Watchers binds paladins to protect mortal realms from the predators of extraplanar creatures, many of which can lay waste to mortal soldiers. Thus, the Watchers hone their minds, spirits, and bodies to be the ultimate weapons against such threats.</p>
@@ -36,7 +36,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_MORTAL_BULWARK" level="20" />
 		</rules>
 	</element>
-	<element name="Oath Spells" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_OATH_SPELLS">
+	<element name="Oath Spells" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_OATH_SPELLS">
 		<description>
 			<p><em>3rd-level Oath of the Watchers feature</em></p>
 			<p>You gain oath spells at the paladin levels listed in the Oath of the Watchers table. See the Sacred Oath class feature for how oath spells work.</p>
@@ -66,7 +66,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_SCRYING" level="17" spellcasting="Paladin" prepared="true" />
 		</rules>
 	</element>
-	<element name="Channel Divinity" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CHANNEL_DIVINITY">
+	<element name="Channel Divinity" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CHANNEL_DIVINITY">
 		<description>
 			<p><em>3rd-level Oath of the Watchers feature</em></p>
 			<p>You gain the following Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.</p>
@@ -80,7 +80,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CD_ABJURE_THE_EXTRAPLANAR" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Watcher’s Will" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CD_WATCHERS_WILL">
+	<element name="Channel Divinity: Watcher’s Will" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CD_WATCHERS_WILL">
 		<description>
 			<p>You can use your Channel Divinity to invest your presence with the warding power of your faith. As an action, you can choose a number of creatures you can see within 30 feet of you, up to a number equal to your Charisma modifier (minimum of one creature). For 1 minute, all the chosen creatures have advantage on Intelligence, Wisdom, and Charisma saving throws.</p>
 		</description>
@@ -92,7 +92,7 @@
 			<stat name="watchers will:creatures" value="charisma:modifier" bonus="base" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Abjure the Extraplanar" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CD_ABJURE_THE_EXTRAPLANAR">
+	<element name="Channel Divinity: Abjure the Extraplanar" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_CD_ABJURE_THE_EXTRAPLANAR">
 		<description>
 			<p>You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each elemental, fey, fiend, or aberration within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.</p>
 			<p>A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
@@ -102,7 +102,7 @@
 			A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
 		</sheet>
 	</element>
-	<element name="Aura of the Sentinel" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_AURA_OF_THE_SENTINEL">
+	<element name="Aura of the Sentinel" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_AURA_OF_THE_SENTINEL">
 		<description>
 			<p><em>7th- and 18th-level Oath of the Watchers feature</em></p>
 			<p>You emit an aura of alertness while you aren’t incapacitated. When you and any creature of your choice within 10 feet of you roll initiative, you each gain a bonus to initiative equal to your proficiency bonus.</p>
@@ -113,7 +113,7 @@
 			<description level="18">You emit an aura of alertness while you aren’t incapacitated. When you and any creature of your choice within 30 feet of you rolls initiative, you each gain a +{{proficiency}} bonus to initiative.</description>
 		</sheet>
 	</element>
-	<element name="Vigilant Rebuke" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_VIGILANT_REBUKE">
+	<element name="Vigilant Rebuke" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_VIGILANT_REBUKE">
 		<description>
 			<p><em>15th-level Oath of the Watchers feature</em></p>
 			<p>You’ve learned how to chastise anyone who dares wield beguilements against you and your wards. Whenever you or a creature you can see within 30 feet of you succeeds on an Intelligence, Wisdom, or a Charisma saving throw, you can use your reaction to deal 2d8 + your Charisma modifier force damage to the creature that forced the saving throw.</p>
@@ -122,7 +122,7 @@
 			<description>Whenever you or a creature you can see within 30 feet of you succeeds on an Intelligence, Wisdom, or Charisma saving throw, you can use your reaction to deal 2d8+{{charisma:modifier}} force damage to the creature that forced the saving throw.</description>
 		</sheet>
 	</element>
-	<element name="Mortal Bulwark" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_MORTAL_BULWARK">
+	<element name="Mortal Bulwark" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WATCHERS_MORTAL_BULWARK">
 		<description>
 			<p><em>20th-level Oath of the Watchers feature</em></p>
 			<p>You manifest a spark of divine power in defense of the mortal realms. As a bonus action, you gain the following benefits for 1 minute:</p>
