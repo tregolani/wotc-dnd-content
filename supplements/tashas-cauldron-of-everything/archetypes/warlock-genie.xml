@@ -4,12 +4,12 @@
     <name>The Genie</name>
     <description>The Genie Otherworldly Patron from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.1">
+    <update version="0.1.2">
       <file name="warlock-genie.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-genie.xml" />
     </update>
   </info>
   
-	<element name="The Genie" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_WARLOCK_THE_GENIE">
+	<element name="The Genie" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_WARLOCK_THE_GENIE">
 		<supports>Otherworldly Patron</supports>
 		<description>
 			<p>You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities rule vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations but most are arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals, who often bind genies into servitude, and readily enter into pacts that expand their reach.</p>
@@ -24,23 +24,23 @@
 				<tr><td>3</td><td>Efreeti</td><td>Fire</td></tr>
 				<tr><td>4</td><td>Marid</td><td>Water</td></tr>
 			</table>
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_GIFT" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_GENIE_SANCTUARY_VESSEL" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_GENIE_LIMITED_WISH" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_GIFT" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_SANCTUARY_VESSEL" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_LIMITED_WISH" />
 		</description>
 		<sheet display="false" />
 		<rules>
 			<select type="Archetype Feature" name="Genie Kind" supports="UA Genie Kind" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST" level="1" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL" level="1" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_GIFT" level="6" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_SANCTUARY_VESSEL" level="10" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_LIMITED_WISH" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_GIFT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_SANCTUARY_VESSEL" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_LIMITED_WISH" level="14" />
 		</rules>
 	</element>	
-	<element name="Dao" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO">
+	<element name="Dao" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO">
 		<compendium display="false" />
 		<supports>UA Genie Kind</supports>
 		<description>
@@ -50,7 +50,7 @@
 			<description>The Genie is associated with the earth element.</description>
 		</sheet>
 	</element>
-	<element name="Djinni" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI">
+	<element name="Djinni" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI">
 		<compendium display="false" />
 		<supports>UA Genie Kind</supports>
 		<description>
@@ -60,7 +60,7 @@
 			<description>The Genie is associated with the air element.</description>
 		</sheet>
 	</element>
-	<element name="Efreeti" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI">
+	<element name="Efreeti" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI">
 		<compendium display="false" />
 		<supports>UA Genie Kind</supports>
 		<description>
@@ -70,7 +70,7 @@
 			<description>The Genie is associated with the fire element.</description>
 		</sheet>
 	</element>
-	<element name="Marid" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID">
+	<element name="Marid" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID">
 		<compendium display="false" />
 		<supports>UA Genie Kind</supports>
 		<description>
@@ -80,7 +80,7 @@
 			<description>The Genie is associated with the water element.</description>
 		</sheet>
 	</element>
-	<element name="Expanded Spell List" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST">
+	<element name="Expanded Spell List" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST">
 		<description>
 			<p><em>1st-level Genie feature</em></p>
 			<p>The Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells Table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.</p>
@@ -109,13 +109,13 @@
 			<extend>ID_PHB_SPELL_WISH</extend>
 		</spellcasting>
 		<rules>
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DAO" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DJINNI" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_EFREETI" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_MARID" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DAO" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DJINNI" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_EFREETI" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_MARID" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID" />
 		</rules>
 	</element>
-	<element name="Dao Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DAO">
+	<element name="Dao Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DAO">
 		<spellcasting name="Warlock" extend="true">			
 			<extend>ID_PHB_SPELL_SANCTUARY</extend>
 			<extend>ID_PHB_SPELL_SPIKE_GROWTH</extend>
@@ -124,7 +124,7 @@
 			<extend>ID_PHB_SPELL_WALL_OF_STONE</extend>
 		</spellcasting>
 	</element>
-	<element name="Djinni Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DJINNI">
+	<element name="Djinni Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_DJINNI">
 		<spellcasting name="Warlock" extend="true">			
 			<extend>ID_PHB_SPELL_THUNDERWAVE</extend>
 			<extend>ID_PHB_SPELL_GUST_OF_WIND</extend>
@@ -133,7 +133,7 @@
 			<extend>ID_PHB_SPELL_SEEMING</extend>
 		</spellcasting>
 	</element>
-	<element name="Efreeti Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_EFREETI">
+	<element name="Efreeti Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_EFREETI">
 		<spellcasting name="Warlock" extend="true">			
 			<extend>ID_PHB_SPELL_BURNING_HANDS</extend>
 			<extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
@@ -142,7 +142,7 @@
 			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
 		</spellcasting>
 	</element>
-	<element name="Marid Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_MARID">
+	<element name="Marid Expanded Spells" type="Grants" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_EXPANDED_SPELL_LIST_MARID">
 		<spellcasting name="Warlock" extend="true">			
 			<extend>ID_PHB_SPELL_FOG_CLOUD</extend>
 			<extend>ID_PHB_SPELL_BLUR</extend>
@@ -151,7 +151,7 @@
 			<extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
 		</spellcasting>
 	</element>
-	<element name="Genie’s Vessel" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL">
+	<element name="Genie’s Vessel" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL">
 		<description>
 			<p><em>1st-level Genie feature</em></p>
 			<p>Your patron gifts you a magical vessel that grants you a measure of the genie’s power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie’s Vessel table.</p>
@@ -174,21 +174,21 @@
 			<p>If the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.</p>
 		</description>
 		<sheet>
-			<description>Your patron gifts you a tiny magical vessel ({{warlock:spellcasting:dc}} AC, {{ua:genie vessel:hp}} HP) that grants you a measure of the genie’s power. You can use it as a spellcasting focus for your warlock spells.
-			While you are touching the vessel, you can use Bottled Respite or Genie’s Wrath.
+			<description>Your patron gifts you a tiny magical vessel ({{warlock:spellcasting:dc}} AC, {{ua:genie vessel:hp}} HP) that grants you a measure of the genie’s power. You can use it as a spellcasting focus for your warlock spells. 
+			While you are touching the vessel, you can use Bottled Respite or Genie’s Wrath. 
 			The vessel is immune to poison and psychic damage and when it is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes when you die.</description>
 		</sheet>
 		<rules>
 			<stat name="ua:genie vessel:hp" value="level:warlock" />
 			<stat name="ua:genie vessel:hp" value="proficiency" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_BOTTLED_RESPITE" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DAO" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DJINNI" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_EFREETI" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI" />
-			<grant type="Grants" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_MARID" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_BOTTLED_RESPITE" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DAO" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DJINNI" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_EFREETI" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI" />
+			<grant type="Grants" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_MARID" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID" />
 		</rules>
 	</element>
-	<element name="Bottled Respite" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_BOTTLED_RESPITE">
+	<element name="Bottled Respite" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_BOTTLED_RESPITE">
 		<compendium display="false" />
 		<description>
 			<p>As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is comfortably appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel’s former space. Once you enter the vessel, you can’t enter again until you finish a long rest.</p>
@@ -201,7 +201,7 @@
 			<stat name="ua:bottled respite:hours" value="proficiency" />
 		</rules>
 	</element>
-	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DAO">
+	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DAO">
 		<compendium display="false" />
 		<description>
 			<p>Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).</p>
@@ -210,7 +210,7 @@
 			<description>Once during each of your turns when you hit with an attack roll, you can deal {{proficiency}} extra bludgeoning damage to the target.</description>
 		</sheet>
 	</element>
-	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DJINNI">
+	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_DJINNI">
 		<compendium display="false" />
 		<description>
 			<p>Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).</p>
@@ -219,7 +219,7 @@
 			<description>Once during each of your turns when you hit with an attack roll, you can deal {{proficiency}} extra thunder damage to the target.</description>
 		</sheet>
 	</element>
-	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_EFREETI">
+	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_EFREETI">
 		<compendium display="false" />
 		<description>
 			<p>Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).</p>
@@ -228,7 +228,7 @@
 			<description>Once during each of your turns when you hit with an attack roll, you can deal {{proficiency}} extra fire damage to the target.</description>
 		</sheet>
 	</element>
-	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_MARID">
+	<element name="Genie’s Wrath" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_GENIES_VESSEL_GENIES_WRATH_MARID">
 		<compendium display="false" />
 		<description>
 			<p>Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).</p>
@@ -237,7 +237,7 @@
 			<description>Once during each of your turns when you hit with an attack roll, you can deal {{proficiency}} extra cold damage to the target.</description>
 		</sheet>
 	</element>
-	<element name="Elemental Gift" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_GIFT">
+	<element name="Elemental Gift" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_ELEMENTAL_GIFT">
 		<description>
 			<p><em>6th-level Genie feature</em></p>
 			<p>You begin to take on characteristics of your patron’s kind. You now have resistance to a damage type determined by your patron’s kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).</p>
@@ -247,13 +247,13 @@
 			<description>You can give yourself a flying speed of 30 feet that lasts for 10 minutes, during which you can hover.</description>
 		</sheet>
 		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI" />
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID" />		
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DAO" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_DJINNI" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_EFREETI" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_KIND_MARID" />		
 		</rules>
 	</element>
-	<element name="Sanctuary Vessel" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_SANCTUARY_VESSEL">
+	<element name="Sanctuary Vessel" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_SANCTUARY_VESSEL">
 		<description>
 			<p><em>10th-level Genie feature</em></p>
 			<p>When you enter your Genie’s Vessel via the Bottled Respite feature, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.</p>
@@ -265,7 +265,7 @@
 			In addition, anyone (including you) who remains within the vessel for at least 10 minutes gains the benefit of finishing a short rest, and anyone can add {{proficiency}} to the number of hp they regain if they spend any Hit Dice as part of a short rest there.</description>
 		</sheet>
 	</element>
-	<element name="Limited Wish" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_GENIE_LIMITED_WISH">
+	<element name="Limited Wish" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_GENIE_LIMITED_WISH">
 		<description>
 			<p><em>14th-level Genie feature</em></p>
 			<p>You entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie’s Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class’s spell list, and you don’t need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.</p>
