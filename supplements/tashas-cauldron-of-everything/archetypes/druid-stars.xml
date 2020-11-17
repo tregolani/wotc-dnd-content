@@ -4,32 +4,32 @@
     <name>Circle of Stars</name>
     <description>The Circle of Stars from Tasha's Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-    <update version="0.1.4">
+    <update version="0.1.5">
       <file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-stars.xml" />
     </update>
   </info>
 
-	<element name="Circle of Stars" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_DRUID_CIRCLE_OF_STARS">
+	<element name="Circle of Stars" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_DRUID_CIRCLE_OF_STARS">
 		<supports>Druid Circle</supports>
 		<description>
 			<p>The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of Stars seeks to harness the powers of the cosmos.</p>
 			<p>Many druids of this circle keep detailed records of the stars and their effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples—any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.</p>
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_STARS_STAR_MAP" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_STARS_COSMIC_OMEN" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS" />
-			<div element="ID_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STAR_MAP" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_COSMIC_OMEN" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS" />
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STAR_MAP" level="2" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM" level="2" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_COSMIC_OMEN" level="6" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS" level="10" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS" level="14" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STAR_MAP" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_COSMIC_OMEN" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS" level="14" />
 		</rules>
 	</element>
-	<element name="Star Map" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STAR_MAP">
+	<element name="Star Map" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STAR_MAP">
 		<description>
 			<p><em>2nd-level Circle of the Stars feature</em></p>
 			<p>You've created a star map as part of your heavenly studies. It is a Tiny object and can serve as a spellcasting focus for your druid spells. You decide what form the object takes, or you can determine what it is by rolling on the Star Map table.</p>
@@ -59,12 +59,12 @@
 			&#13;&#10;You have the guiding bolt spell prepared and can cast it without expending a spell slot {{proficiency}} times per Long Rest.</description>
 		</sheet>
 		<rules>
-			<grant type="Item" id="ID_TCOE_ITEM_STAR_MAP"/>
+			<grant type="Item" id="ID_WOTC_TCOE_ITEM_STAR_MAP"/>
 			<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" spellcasting="Cleric"/>
 			<grant type="Spell" id="ID_PHB_SPELL_GUIDING_BOLT" spellcasting="Cleric" prepared="true" />
 		</rules>
 	</element>
-	<element name="Starry Form" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM">
+	<element name="Starry Form" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM">
 		<description>
 			<p><em>2nd-level Circle of the Stars feature</em></p>
 			<p>As a bonus action, you can expend a use of your Wild Shape feature to take on a starry form, rather than transforming into a beast.</p>
@@ -85,12 +85,12 @@
 			&#13;&#10;Whenever you assume your starry form, and at the start of your turn while it is still active, choose which of the constellations glimmers on your body.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_ARCHER" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_CHALICE" />
-			<grant type="Archetype Feature" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_DRAGON" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_ARCHER" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_CHALICE" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_DRAGON" />
 		</rules>
 	</element>
-	<element name="Archer" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_ARCHER">
+	<element name="Archer" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_ARCHER">
 		<compendium display="false" />
 		<description>
 			<p>A constellation of an archer appears on you. When you activate this form and as a bonus action on subsequent turns, you can make a ranged spell attack, hurling a luminous arrow that targets a creature within 60 feet of you. On a hit, the attack deals radiant damage equal to 1d8 + your Wisdom modifier.</p>
@@ -100,7 +100,7 @@
 			<description level="10">You can make a ranged spell attack, hurling a luminous arrow that targets a creature within 60 feet of you. On a hit, the attack deals 2d8+{{wisdom:modifier}} radiant damage.</description>
 		</sheet>
 	</element>
-	<element name="Chalice" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_CHALICE">
+	<element name="Chalice" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_CHALICE">
 		<compendium display="false" />
 		<description>
 			<p>A constellation of a life-giving goblet appears on you. Whenever you cast a spell using a spell slot that restores hit points to a creature, you or another creature within 30 feet of you can regain hit points equal to 1d8 + your Wisdom modifier.</p>
@@ -110,7 +110,7 @@
 			<description level="10">Whenever you cast a spell using a spell slot that restores hp to a creature, you or another creature within 30 feet of you can regain 2d8+{{wisdom:modifier}} hp.</description>
 		</sheet>
 	</element>
-	<element name="Dragon" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_DRAGON">
+	<element name="Dragon" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_STARRY_FORM_DRAGON">
 		<compendium display="false" />
 		<description>
 			<p>A constellation of a wise dragon appears on you. When you make an Intelligence or a Wisdom check or a Constitution saving throw to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10.</p>
@@ -120,7 +120,7 @@
 			<description level="10">When you make an Intelligence or a Wisdom check or a Constitution save to maintain concentration on a spell, you can treat a roll of 9 or lower on the d20 as a 10. You also gain a flying speed of 20 feet and can hover.</description>
 		</sheet>
 	</element>
-	<element name="Cosmic Omen" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_COSMIC_OMEN">
+	<element name="Cosmic Omen" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_COSMIC_OMEN">
 		<description>
 			<p><em>6th-level Circle of the Stars feature</em></p>
 			<p>Whenever you finish a long rest, you can consult your Star Map for omens. When you do so, roll a die. You gain one of the following possible omens based on whether you rolled an even number or an odd number on the die:</p>
@@ -136,7 +136,7 @@
 			&#13;&#10;Woe (odd). Whenever a creature you can see within 30 feet of you is about to make an attack roll, a saving throw, or an ability check, you can use roll a d6 and subtract the number rolled from the total.</description>
 		</sheet>
 	</element>
-	<element name="Twinkling Constellations" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS">
+	<element name="Twinkling Constellations" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_TWINKLING_CONSTELLATIONS">
 		<description>
 			<p><em>10th-level Circle of the Stars feature</em></p>
 			<p>The constellations of your Starry Form improve. The 1d8 of the Archer and the Chalice becomes 2d8, and while the Dragon is active, you have a flying speed of 20 feet and can hover.</p>
@@ -149,7 +149,7 @@
 			&#13;&#10;• At the start of each of your turns while in your Starry Form, you can change which constellation glimmers on your body.</description>
 		</sheet>
 	</element>
-	<element name="Full of Stars" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS">
+	<element name="Full of Stars" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_STARS_FULL_OF_STARS">
 		<description>
 			<p><em>14th-level Circle of the Stars feature</em></p>
 			<p>While your Starry Form feature is active, you become partially incorporeal, giving you resistance to bludgeoning, piercing, and slashing damage.</p>
@@ -160,7 +160,7 @@
 	</element>
 
 <!--Star Map Item -->
-	<element name="Star Map" type="Item" source="Tasha's Cauldron of Everything" id="ID_TCOE_ITEM_STAR_MAP">
+	<element name="Star Map" type="Item" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_STAR_MAP">
 		<description>
 			<p>The map is a Tiny object and can serve as a spellcasting focus for your druid spells.</p>
 			<p class="indent">If you lose your map, you can perform a 1-hour ceremony to magically create a replacement. This ceremony can be performed during a short or long rest, and it destroys the previous map.</p>
