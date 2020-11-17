@@ -2,14 +2,14 @@
 <elements>
 	<info>
 		<name>Clockwork Soul</name>
-		<description>The Clockwork Soul Sorcerous Origin from Tasha's Cauldron of Everything</description>
-		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha's Cauldron of Everything</author>
-		<update version="0.1.4">
+		<description>The Clockwork Soul Sorcerous Origin from Tasha’s Cauldron of Everything</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+		<update version="0.1.5">
 			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.xml" />
 		</update>
 	</info>
 	
-	<element name="Clockwork Soul" type="Archetype" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_SORCERER_CLOCKWORK_SOUL">
+	<element name="Clockwork Soul" type="Archetype" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_SORCERER_CLOCKWORK_SOUL">
 		<supports>Sorcerous Origin</supports>
 		<description>
 			<p>The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is a part of a vast and glorious system.</p>
@@ -28,7 +28,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_CLOCKWORK_CAVALCADE" level="18" />
 		</rules>
 	</element>
-	<element name="Clockwork Magic" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_CLOCKWORK_MAGIC">
+	<element name="Clockwork Magic" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_CLOCKWORK_MAGIC">
 		<description>
 			<p><em>1st-level Clockwork Soul feature</em></p>
 			<p>You learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each spell counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. These spells can’t be replaced when you gain a level in this class.</p>
@@ -71,7 +71,7 @@
             <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
 		</rules>
 	</element>
-	<element name="Restore Balance" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_RESTORE_BALANCE">
+	<element name="Restore Balance" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_RESTORE_BALANCE">
 		<description>
 			<p><em>1st-level Clockwork Soul feature</em></p>
 			<p>Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of you is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.</p>
@@ -83,7 +83,7 @@
 		<rules>
 		</rules>
 	</element>
-	<element name="Bulwark of Law" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_BASTION_OF_LAW">
+	<element name="Bulwark of Law" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_BASTION_OF_LAW">
 		<description>
 			<p><em>6th-level Clockwork Soul feature</em></p>
 			<p>You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.</p>
@@ -94,7 +94,7 @@
 			The ward is represented by a number of d8s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can use its reaction to spend a number of those dice, roll them, and reduce the damage taken by the total of the spent dice.</description>
 		</sheet>
 	</element>
-	<element name="Trance of Order" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_TRANCE_OF_ORDER">
+	<element name="Trance of Order" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_TRANCE_OF_ORDER">
 		<description>
 			<p><em>14th-level Clockwork Soul feature</em></p>
 			<p>You gain the ability to align your consciousness to the endless calculations of Mechanus. As a bonus action, you can enter this state for 1 minute. For the duration, attack rolls against you can’t benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a d20 roll of 9 or lower as a 10.</p>
@@ -105,7 +105,7 @@
 			You can expend 5 sorcery points to use this feature again.</description>
 		</sheet>
 	</element>
-	<element name="Clockwork Cavalcade" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_CLOCKWORK_CAVALCADE">
+	<element name="Clockwork Cavalcade" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_CLOCKWORK_CAVALCADE">
 		<description>
 			<p><em>18th-level Clockwork Soul feature</em></p>
 			<p>You summon spirits of order to expunge disorder around you. As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, and they create the following effects within the cube before vanishing:</p>
