@@ -4,7 +4,7 @@
 		<name>Psi Warrior</name>
 		<description>The Psi Warrior Fighter Archetype from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="fighter-psiwarrior.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-psiwarrior.xml" />
 		</update>
 	</info>
@@ -183,5 +183,8 @@
 		<sheet usage="1/Long Rest, then Psionic Energy">
 			<description>You can cast the <em>telekinesis</em> spell, requiring no components, and your spellcasting ability for the spell is Intelligence. On each of your turns while you concentrate on the spell, including the turn when you cast it, you can make one attack with a weapon as a bonus action.</description>
 		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" spellcasting="Intelligence" />
+		</rules>
 	</element>
 </elements>
