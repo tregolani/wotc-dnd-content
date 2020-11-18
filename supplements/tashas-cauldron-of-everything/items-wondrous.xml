@@ -4,7 +4,7 @@
 		<name>Wondrous Items</name>
 		<description>Magical Gear and Wondrous Items from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.1">
+		<update version="0.1.1">
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/items-wondrous.xml" />
 		</update>
 	</info>
@@ -1170,7 +1170,7 @@
 			<set name="rarity">Rare</set>
 		</setters>
 	</element>
-	<element name="Feywild Shard" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_Feywild_SHARD">
+	<element name="Feywild Shard" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FEYWILD_SHARD">
 		<description>
 			<p>This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
 			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the Wild Magic Surge table in the Player's Handbook. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.</p>
