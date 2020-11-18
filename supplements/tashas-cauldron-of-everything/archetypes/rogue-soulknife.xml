@@ -4,7 +4,7 @@
     <name>Soulknife</name>
     <description>The Soulknife Roguish Archetype from Tasha’s Cauldron of Everything</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-    <update version="0.1.3">
+    <update version="0.1.4">
       <file name="rogue-soulknife.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/rogue-soulknife.xml" />
     </update>
   </info>
@@ -42,22 +42,21 @@
 			<p class="indent"><strong><em>Psychic Whispers.</em></strong> You can establish telepathic communication between yourself and others—perfect for quiet infiltration. As an action, choose one or more creatures you can see, up to a number of creatures equal to your proficiency bonus, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end their telelpathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other. The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.</p>
         </description>
         <sheet>
-            <description>You have {{psionic-energy:dice}} Psionic Energy dice, which are each a d{{psionic-energy:size}}. These can be used to fuel certain abilities, and you regain all expended Psionic Energy dice when you finish a long rest.</description>
+            <description>You have {{psionic-energy:dice}} Psionic Energy dice, each of which is a d{{psionic-energy:size}}. These can be used to fuel certain abilities, and you regain all expended Psionic Energy dice when you finish a long rest.</description>
         </sheet>
         <rules>
             <stat name="psionic-energy:dice" value="proficiency" />
             <stat name="psionic-energy:dice" value="proficiency" />
-            <stat name="psionic-energy:size" value="6" />
-            <stat name="psionic-energy:size" value="2" requirements="[level:5]" />
-            <stat name="psionic-energy:size" value="2" requirements="[level:11]" />
-            <stat name="psionic-energy:size" value="2" requirements="[level:17]" />
+            <stat name="psionic-energy:size" value="6" bonus="base"/>
+            <stat name="psionic-energy:size" value="8" bonus="base" requirements="[level:5]" />
+            <stat name="psionic-energy:size" value="10" bonus="base" requirements="[level:11]" />
+            <stat name="psionic-energy:size" value="12" bonus="base" requirements="[level:17]" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_ENERGY_RECOVERY" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSI_BOLSTERED_KNACK" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_WHISPERS" />
         </rules>
     </element>
 	<element name="Psionic Energy Recovery" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSIONIC_ENERGY_RECOVERY">
-		<supports>Psionic Energy Powers</supports>
 		<description>
 			<p>As a bonus action, you can regain one expended Psionic Energy die, but you can't do so again until you finish a short or long rest.</p>
 		</description>
@@ -66,20 +65,18 @@
 		</sheet>
 	</element>
 	<element name="Psi-Bolstered Knack" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSI_BOLSTERED_KNACK">
-		<supports>Psionic Energy Powers</supports>
 		<description>
 			<p>When your nonpsionic training fails you, your psionic power can help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds.</p>
 		</description>
-		<sheet usage="Psionic Energy Dice (d{{psionic-energy:size}})">
+		<sheet usage="Psionic Energy">
 			<description>You can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds.</description>
 		</sheet>
 	</element>
 	<element name="Psychic Whispers" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_WHISPERS">
-		<supports>Psionic Energy Powers</supports>
 		<description>
 			<p>You can establish telepathic communication between yourself and others—perfect for quiet infiltration. As an action, choose one or more creatures you can see, up to a number of creatures equal to your proficiency bonus, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end their telelpathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other. The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.</p>
 		</description>
-		<sheet action="Action" usage="1/Long Rest, then Psionic Energy Dice (d{{psionic-energy:size}})">
+		<sheet action="Action" usage="1/Long Rest, then Psionic Energy">
 			<description>Choose up to {{proficiency}} creatures you can see, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end their telelpathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other. </description>
 		</sheet>
 	</element>
@@ -114,20 +111,18 @@
         </rules>
     </element>
 	<element name="Homing Strikes" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_HOMING_STRIKES">
-		<supports>Psionic Energy Powers</supports>
 		<description>
 			<p>If you make an attack roll with your Psychic Blades and miss the target, you can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, you expend the Psionic Energy die.</p>
 		</description>
-		<sheet action="Missed Psychic Blade Attack" usage="Psionic Energy Dice (d{{psionic-energy:size}})">
+		<sheet action="Missed Psychic Blade Attack" usage="Psionic Energy">
 			<description>You can roll one Psionic Energy die and add the number rolled to the attack roll. If this causes the attack to hit, you expend the Psionic Energy die.</description>
 		</sheet>
 	</element>
 	<element name="Psychic Teleportation" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_SOULKNIFE_PSYCHIC_TELEPORTATION">
-		<supports>Psionic Energy Powers</supports>
 		<description>
 			<p>As a bonus action, you manifest one of your Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space you can see, up to a number of feet away equal to 10 times the number you rolled. You then teleport to that space, and the blade vanishes.</p>
 		</description>
-		<sheet action="Bonus Action" usage="Psionic Energy Dice (d{{psionic-energy:size}}))">
+		<sheet action="Bonus Action" usage="Psionic Energy)">
 			<description>You manifest one of your Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space you can see, up to a number of feet away equal to 10 times the number you rolled. You then teleport to that space, and the blade vanishes.</description>
 		</sheet>
 	</element>
@@ -138,7 +133,7 @@
             <p>You can weave a veil of psionic static to mask yourself. As an action, you can magically become invisible, along with anything you are wearing or carrying, for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or force a creature to make a saving throw.</p>
             <p>Once you use this feature, you can't do so again until you finish a long rest, unless you expend a Psionic Energy die to use this feature again.</p>
         </description>
-        <sheet action="Action" usage="1/Long Rest, then Psionic Energy Dice (d{{psionic-energy:size}})">
+        <sheet action="Action" usage="1/Long Rest, then Psionic Energy">
             <description>You can magically become invisible, along with anything you are wearing or carrying, for 1 hour. This invisibility ends immediately after you deal damage to a creature or force it to make a saving throw.</description>
         </sheet>
     </element>
@@ -148,7 +143,7 @@
             <p>You can sweep your Psychic Blades directly through a creature’s mind. When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier). If the save fails, the target is stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
             <p>Once you use this feature, you can't do so again until you finish a long rest, unless you expend three Psionic Energy dice to use it again.</p>
         </description>
-        <sheet usage="1/Long Rest, then 3x Psionic Energy Dice (d{{psionic-energy:size}})">
+        <sheet usage="1/Long Rest, then 3x Psionic Energy Dice">
             <description>When you use your Psychic Blades to deal Sneak Attack damage to a creature, you can force that target to make a DC {{rend mind:dc}} Wisdom saving throw. If the save fails, the target is stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</description>
         </sheet>
         <rules>
