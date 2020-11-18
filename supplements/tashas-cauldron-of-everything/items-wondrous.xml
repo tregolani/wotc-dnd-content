@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items</name>
+		<description>Magical Gear and Wondrous Items from Tasha’s Cauldron of Everything</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
+		<update version="0.1">
+			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/items-wondrous.xml" />
+		</update>
+	</info>
+
+<!--Spellcasting Foci-->
+	<element name="All-Purpose Tool, +1" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_TOOL_1">
+		<description>
+			<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the "Equipment" chapter in the Player's Handbook for a list of artisan's tools). Whatever form the tool takes, you are proficient with it.</p>
+			<p>While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" />
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an artificer">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="artificer:spellcasting:attack" value="1" bonus="all-purpose tool" />
+			<stat name="artificer:spellcasting:dc" value="1" bonus="all-purpose tool" />
+		</rules>
+	</element>
+	<element name="All-Purpose Tool, +2" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_TOOL_2">
+		<description>
+			<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the "Equipment" chapter in the Player's Handbook for a list of artisan's tools). Whatever form the tool takes, you are proficient with it.</p>
+			<p>While holding this tool, you gain a +2 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" />
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an artificer">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="artificer:spellcasting:attack" value="2" bonus="all-purpose tool" />
+			<stat name="artificer:spellcasting:dc" value="2" bonus="all-purpose tool" />
+		</rules>
+	</element>
+	<element name="All-Purpose Tool, +3" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALL_PURPOSE_TOOL_3">
+		<description>
+			<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the "Equipment" chapter in the Player's Handbook for a list of artisan's tools). Whatever form the tool takes, you are proficient with it.</p>
+			<p>While holding this tool, you gain a +3 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p>As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" />
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an artificer">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="artificer:spellcasting:attack" value="3" bonus="all-purpose tool" />
+			<stat name="artificer:spellcasting:dc" value="3" bonus="all-purpose tool" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +1" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_1">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p>While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">cleric,paladin</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="cleric:spellcasting:attack" value="1" bonus="amulet of the devout" />
+			<stat name="cleric:spellcasting:dc" value="1" bonus="amulet of the devout" />
+			<stat name="paladin:spellcasting:attack" value="1" bonus="amulet of the devout" />
+			<stat name="paladin:spellcasting:dc" value="1" bonus="amulet of the devout" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +2" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_2">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p>While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">cleric,paladin</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="cleric:spellcasting:attack" value="2" bonus="amulet of the devout" />
+			<stat name="cleric:spellcasting:dc" value="2" bonus="amulet of the devout" />
+			<stat name="paladin:spellcasting:attack" value="2" bonus="amulet of the devout" />
+			<stat name="paladin:spellcasting:dc" value="2" bonus="amulet of the devout" />
+		</rules>
+	</element>
+	<element name="Amulet of the Devout, +3" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_AMULET_OF_THE_DEVOUT_3">
+		<description>
+			<p>This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +3 bonus to spell attack rolls and the saving throw DCs of your spells.</p>
+			<p>While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">cleric,paladin</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">neck</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="cleric:spellcasting:attack" value="3" bonus="amulet of the devout" />
+			<stat name="cleric:spellcasting:dc" value="3" bonus="amulet of the devout" />
+			<stat name="paladin:spellcasting:attack" value="3" bonus="amulet of the devout" />
+			<stat name="paladin:spellcasting:dc" value="3" bonus="amulet of the devout" />
+		</rules>
+	</element>
+	<element name="Arcane Grimoire, +1" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ARCANE_GRIMOIRE_1">
+		<description>
+			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
+			<p>You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, spellbook, wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="wizard:spellcasting:attack" value="1" bonus="arcane grimoire" />
+			<stat name="wizard:spellcasting:dc" value="1" bonus="arcane grimoire" />
+		</rules>
+	</element>
+	<element name="Arcane Grimoire, +2" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ARCANE_GRIMOIRE_2">
+		<description>
+			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
+			<p>You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, spellbook, wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="wizard:spellcasting:attack" value="2" bonus="arcane grimoire" />
+			<stat name="wizard:spellcasting:dc" value="2" bonus="arcane grimoire" />
+		</rules>
+	</element>
+	<element name="Arcane Grimoire, +3" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ARCANE_GRIMOIRE_3">
+		<description>
+			<p>While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.</p>
+			<p>You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, spellbook, wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="wizard:spellcasting:attack" value="3" bonus="arcane grimoire" />
+			<stat name="wizard:spellcasting:dc" value="3" bonus="arcane grimoire" />
+		</rules>
+	</element>
+	<element name="Bloodwell Vial, +1" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_1">
+		<description>
+			<p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p>
+			<p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0.16 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="sorcerer:spellcasting:attack" value="1" bonus="bloodwell vial" />
+			<stat name="sorcerer:spellcasting:dc" value="1" bonus="bloodwell vial" />
+		</rules>
+	</element>
+	<element name="Bloodwell Vial, +2" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_2">
+		<description>
+			<p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p>
+			<p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0.16 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="sorcerer:spellcasting:attack" value="2" bonus="bloodwell vial" />
+			<stat name="sorcerer:spellcasting:dc" value="2" bonus="bloodwell vial" />
+		</rules>
+	</element>
+	<element name="Bloodwell Vial, +3" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOODWELL_VIAL_3">
+		<description>
+			<p>To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.</p>
+			<p>In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0.16 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="sorcerer:spellcasting:attack" value="3" bonus="bloodwell vial" />
+			<stat name="sorcerer:spellcasting:dc" value="3" bonus="bloodwell vial" />
+		</rules>
+	</element>
+	<element name="Moon Sickle, +1" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MOON_SICKLE_1">
+		<description>
+			<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p>
+			<p>When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>
+			<p><strong><em>Light.</em></strong> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p>
+		</description>
+		<setters>
+			<set name="keywords">sickle, druid, ranger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Sickle</set>
+			<set name="name-format">Moon Sickle, +1</set>
+		</setters>
+		<rules>
+			<stat name="druid:spellcasting:attack" value="1" bonus="moon sickle" />
+			<stat name="druid:spellcasting:dc" value="1" bonus="moon sickle" />
+			<stat name="ranger:spellcasting:attack" value="1" bonus="moon sickle" />
+			<stat name="ranger:spellcasting:dc" value="1" bonus="moon sickle" />
+		</rules>
+	</element>
+	<element name="Moon Sickle, +2" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MOON_SICKLE_2">
+		<description>
+			<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p>
+			<p>When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>
+			<p><strong><em>Light.</em></strong> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p>
+		</description>
+		<setters>
+			<set name="keywords">sickle, druid, ranger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Sickle</set>
+			<set name="name-format">Moon Sickle, +2</set>
+		</setters>
+		<rules>
+			<stat name="druid:spellcasting:attack" value="2" bonus="moon sickle" />
+			<stat name="druid:spellcasting:dc" value="2" bonus="moon sickle" />
+			<stat name="ranger:spellcasting:attack" value="2" bonus="moon sickle" />
+			<stat name="ranger:spellcasting:dc" value="2" bonus="moon sickle" />
+		</rules>
+	</element>
+	<element name="Moon Sickle, +3" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MOON_SICKLE_3">
+		<description>
+			<p>This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.</p>
+			<p>When you cast a spell that restores hit points, you can roll a d4 and add the number rolled to the amount of hit points restored, provided you are holding the sickle.</p>
+			<p><strong><em>Light.</em></strong> A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.</p>
+		</description>
+		<setters>
+			<set name="keywords">sickle, druid, ranger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="attunement" addition="by a druid or ranger">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Sickle</set>
+			<set name="name-format">Moon Sickle, +3</set>
+		</setters>
+		<rules>
+			<stat name="druid:spellcasting:attack" value="3" bonus="moon sickle" />
+			<stat name="druid:spellcasting:dc" value="3" bonus="moon sickle" />
+			<stat name="ranger:spellcasting:attack" value="3" bonus="moon sickle" />
+			<stat name="ranger:spellcasting:dc" value="3" bonus="moon sickle" />
+		</rules>
+	</element>
+	<element name="Rhythm-Maker’s Drum, +1" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_RHYTHM_MAKERS_DRUM_1">
+		<description>
+			<p>While holding this drum, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>
+			<p>As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn</p>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="bard:spellcasting:attack" value="1" bonus="rhythm makers drum" />
+			<stat name="bard:spellcasting:dc" value="1" bonus="rhythm makers drum" />
+		</rules>
+	</element>
+	<element name="Rhythm-Maker’s Drum, +2" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_RHYTHM_MAKERS_DRUM_2">
+		<description>
+			<p>While holding this drum, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>
+			<p>As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn</p>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="bard:spellcasting:attack" value="2" bonus="rhythm makers drum" />
+			<stat name="bard:spellcasting:dc" value="2" bonus="rhythm makers drum" />
+		</rules>
+	</element>
+	<element name="Rhythm-Maker’s Drum, +3" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_RHYTHM_MAKERS_DRUM_3">
+		<description>
+			<p>While holding this drum, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells.</p>
+			<p>As an action, you can play the drum to regain one use of your Bardic Inspiration feature. This property of the drum can't be used again until the next dawn</p>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="bard:spellcasting:attack" value="3" bonus="rhythm makers drum" />
+			<stat name="bard:spellcasting:dc" value="3" bonus="rhythm makers drum" />
+		</rules>
+	</element>
+
+<!--Tattoos-->
+	<element name="Absorbing Tattoo, Acid" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_ACID">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize green more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to acid damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take acid damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,acid</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Cold" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_COLD">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize blue more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to cold damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take cold damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,cold</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Fire" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_FIRE">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize red more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to fire damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take fire damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,fire</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Force" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_FORCE">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize white more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to force damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take force damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,force</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Lightning" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_LIGHTNING">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize yellow more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to lightning damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take lightning damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,lightning</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Necrotic" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_NECROTIC">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize black more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to necrotic damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take necrotic damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,necrotic</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Poison" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_POISON">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize violet more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to poison damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take poison damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,poison</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Psychic" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_PSYCHIC">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize silver more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to psychic damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take psychic damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,psychic</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Radiant" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_RADIANT">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize gold more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to radiant damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take radiant damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,radiant</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+		</rules>
+	</element>
+	<element name="Absorbing Tattoo, Thunder" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ABSORBING_TATTOO_THUNDER">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features designs that emphasize orange more than others.</p>			
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Damage Resistance.</em></strong> While the tattoo is on your skin, you have resistance to thunder damage.</p>
+			<p><strong><em>Damage Absorption.</em></strong> When you take thunder damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,thunder</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+		</rules>
+	</element>
+	<element name="Barrier Tattoo (Small)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BARRIER_TATTOO_UNCOMMON">
+		<description>
+			<p>Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Protection. </em></strong> While you aren't wearing armor, the tattoo grants you an Armor Class of 12 + your dexterity bonus. You can use a shield and still gain this benefit.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo, ac, armor class</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:uncommon barrier tattoo" value="12" />
+			<stat name="ac:uncommon barrier tattoo" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:uncommon barrier tattoo" bonus="calculation" />
+		</rules>
+	</element>
+	<element name="Barrier Tattoo (Medium)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BARRIER_TATTOO_RARE">
+		<description>
+			<p>Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Protection. </em></strong> While you aren't wearing armor, the tattoo grants you an Armor Class of 15 + your Dexterity modifier (maximum of +2). You can use a shield and still gain this benefit.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo, ac, armor class</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:rare barrier tattoo" value="15" />
+			<stat name="ac:rare barrier tattoo" value="dexterity:modifier" maximum="2" />
+			<stat name="ac:calculation" value="ac:rare barrier tattoo" bonus="calculation" />
+		</rules>
+	</element>
+	<element name="Barrier Tattoo (Large)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BARRIER_TATTOO_VERY_RARE">
+		<description>
+			<p>Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Protection. </em></strong> While you aren't wearing armor, the tattoo grants you an Armor Class of 18. You can use a shield and still gain this benefit.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo, ac, armor class</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:very rare barrier tattoo" value="18" />
+			<stat name="ac:calculation" value="ac:very rare barrier tattoo" bonus="calculation" />
+		</rules>
+	</element>	
+	<element name="Blood Fury Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BLOOD_FURY_TATTOO">
+		<description>
+			<p>Produced by a special needle, this magic tattoo evokes fury in its form and colors.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Bloodthirsty Strikes.</em></strong> The tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:</p>
+			<ul>
+				<li>When you hit a creature with a weapon attack, you can expend a charge to deal an extra 4d6 necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.</li>
+				<li>When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,necrotic,hp,reaction</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+	<element name="Coiling Grasp Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_COILING_GRASP_TATTOO">
+		<description>
+			<p>Produced by a special needle, this magic tattoo has long intertwining designs.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Grasping Tendrils.</em></strong> While the tattoo is on your skin, you can, as an action, cause the tattoo to extrude into inky tendrils, which reach for a creature you can see within 15 feet of you. The creature must succeed on a DC 14 Strength saving throw or take 3d6 force damage and be grappled by you. As an action, the creature can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check. The grapple also ends if you halt it (no action required), if the creature is ever more than 15 feet away from you, or if you use this tattoo on a different creature.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,force,grappled</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<element name="Eldritch Claw Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ELDRITCH_CLAW_TATTOO">
+			<description>
+			<p>Produced by a special needle, this magic tattoo depicts clawlike forms and other jagged shapes.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Magical Strikes.</em></strong> While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.</p>
+			<p><strong><em>Eldritch Maul.</em></strong> As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra 1d6 force damage on a hit. Once used, this bonus action can't be used again until the next dawn.</p>
+			</description>
+		<setters>
+			<set name="keywords">tattoo,unarmed strike,force</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="unarmed strike:attack" value="1" />
+			<stat name="unarmed strike:damage" value="1" />
+		</rules>
+	</element>
+	<element name="Ghost Step Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_GHOST_STEP_TATTOO">
+		<description>
+			<p>Produced by a special needle, this tattoo shifts and wavers on the skin, parts of it appearing blurred.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Ghostly Form.</em></strong> The tattoo has 3 charges, and it regains all expended charges daily at dawn. As a bonus action while the tattoo is on your skin, you can expend 1 of the tattoo's charges to become incorporeal until the end of your next turn. For the duration, you gain the following benefits:</p>
+			<ul>
+				<li>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</li>
+				<li>You can't be grappled or restrained.</li>
+				<li>You can move through creatures and solid objects as if they were difficult terrain. If you end your turn in a solid object, you take 1d10 force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take 1d10 force damage for every 5 feet traveled.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,resistance,grappled,restrained</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Illuminator’s Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ILLUMINATORS_TATTOO">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features beautiful calligraphy, images of writing implements, and the like.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Magical Scribing.</em></strong> While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.</p>
+			<p class="indent">As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes invisible to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Common</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<element name="Lifewell Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_LIFEWELL_TATTOO">
+		<description>
+			<p>Produced by a special needle, this magic tattoo features symbols of life and rebirth.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Necrotic Resistance.</em></strong> While this tattoo is on your skin, you have resistance to necrotic damage.</p>
+			<p><strong><em>Life Ward.</em></strong> When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this property can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,necrotic,resistance</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Masquerade Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MASQUERADE_TATTOO">
+		<description>
+			<p>Produced by a special needle, this magic tattoo appears on your body as whatever you desire.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Fluid Ink.</em></strong> As a bonus action, you can shape the tattoo into any color or pattern and move it to any area of your skin. Whatever form it takes, it is always obviously a tattoo. It can range in size from no smaller than a copper piece to an intricate work of art that covers all your skin.</p>
+			<p><strong><em>Disguise Self.</em></strong> As an action, you can use the tattoo to cast the disguise self spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DISGUISE_SELF" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,disguise self</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Common</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<element name="Shadowfell Brand Tattoo" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SHADOWFELL_BRAND_TATTOO">
+		<description>
+			<p>Produced by a special needle, this magic tattoo is dark in color and abstract.</p>
+			<p><strong><em>Tattoo Attunement.</em></strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.</p>
+			<p class="indent">If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p>
+			<p><strong><em>Shadow Essence.</em></strong> You gain darkvision with a range of 60 feet, and you have advantage on Dexterity (Stealth) checks.</p>
+			<p><strong><em>Shadowy Defense.</em></strong> When you take damage, you can use your reaction to become insubstantial for a moment, halving the damage you take. Then the reaction can't be used again until the next sunset.</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo,stealth</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>	
+	<element name="Spellwrought Tattoo, Cantrip" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SPELLWROUGHT_TATTOO_CANTRIP">
+		<description>
+			<p>Produced by a special needle, this magic tattoo contains a single cantrip, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p>
+			<p>The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Spellwrought Tattoo, 1st-level" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SPELLWROUGHT_TATTOO_1">
+		<description>
+			<p>Produced by a special needle, this magic tattoo contains a single 1st level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p>
+			<p>The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Spellwrought Tattoo, 2nd-level" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SPELLWROUGHT_TATTOO_2">
+		<description>
+			<p>Produced by a special needle, this magic tattoo contains a single 2nd level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p>
+			<p>The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Spellwrought Tattoo, 3rd-level" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SPELLWROUGHT_TATTOO_3">
+		<description>
+			<p>Produced by a special needle, this magic tattoo contains a single 3rd level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p>
+			<p class="indent">The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Spellwrought Tattoo, 4th-level" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SPELLWROUGHT_TATTOO_4">
+		<description>
+			<p>Produced by a special needle, this magic tattoo contains a single 4th level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p>
+			<p>The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7
+
+</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Spellwrought Tattoo, 5th-level" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SPELLWROUGHT_TATTOO_5">
+		<description>
+			<p>Produced by a special needle, this magic tattoo contains a single 5th level spell, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.</p>
+			<p class="indent">The Ability modifier for this spell is +5; the Save DC is 17 and the attack bonus is +9</p>
+		</description>
+		<setters>
+			<set name="keywords">tattoo</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Tattoo</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+<!--Spellbooks-->
+	<element name="Alchemical Compendium" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ALCHEMICAL_COMPENDIUM">
+		<description>
+			<p>Acrid odors cling to this stained, heavy volume. The book's metal fittings are copper, iron, lead, silver, and gold, some frozen mid-transition from one metal to another. When found, the book contains the following spells: <em>enlarge/reduce, feather fall, flesh to stone, gaseous form, magic weapon,</em> and <em>polymorph.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the transmutation school.</li>
+				<li>As an action, you can touch a nonmagical object that isn't being worn or carried and spend a number of charges to transform the target into another object. For 1 charge, the object can be no larger than 1 foot on a side. You can spend additional charges to increase the maximum dimensions by 2 feet per charge. The new object must have a gold value equal to or less than the original.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,transmutation,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Atlas of Endless Horizons" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ATLAS_OF_ENDLESS_HORIZONS">
+		<description>
+			<p>This thick book is bound in dark leather, crisscrossed with inlaid silver lines suggesting a map or chart. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: <em>arcane gate, dimension door, gate, misty step, plane shift, teleportation circle,</em> and <em>word of recall.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.</li>
+				<li>When you are hit by an attack, you can use your reaction to expend 1 charge to teleport up to 10 feet to an unoccupied space you can see. If your new position is out of range of the attack, it misses you.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, spellbook,conjuration,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Crystalline Chronicle" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_CRYSTALLINE_CHRONICLE">
+		<description>
+			<p>An etched crystal sphere the size of a grapefruit hums faintly and pulses with irregular flares of inner light. While you are touching the crystal, you can retrieve and store information and spells within the crystal at the same rate as reading and writing. When found, the crystal contains the following spells: <em>detect thoughts, intellect fortress, Rary's telepathic bond, sending, telekinesis, Tasha’s mind whip,</em> and <em>Tenser's floating disk.</em> It functions as a spellbook for you, with its spells and other writing psychically encoded within it.</p>
+			<p>While you are holding the crystal, you can use it as a spellcasting focus for your wizard spells, and you know the <em>mage hand, mind sliver,</em> and <em>message</em> cantrips if you don't already know them.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.</li>
+				<li>When you are hit by an attack, you can use your reaction to expend 1 charge to teleport up to 10 feet to an unoccupied space you can see. If your new position is out of range of the attack, it misses you.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus, spellbook,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="charges">3</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" spellcasting="Wizard" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MESSAGE" spellcasting="Wizard" prepared="true" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER" spellcasting="Wizard" prepared="true" />
+		</rules>
+	</element>
+	<element name="Duplicitous Manuscript" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_DUPLICITOUS_MANUSCRIPT">
+		<description>
+			<p>To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.</p>
+			<p>When found, the book contains the following spells: <em>hallucinatory terrain, major image, mirror image, mislead, Nystul's magic aura, phantasmal force,</em> and <em>silent image.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the illusion school.</li>
+				<li>When a creature you can see makes an Intelligence (Investigation) check to discern the true nature of an illusion spell you cast, or makes a saving throw against an illusion spell you cast, you can use your reaction and expend 1 charge to impose disadvantage on the roll.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,illusion,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Fulminating Treatise" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FULMINATING_TREATISE">
+		<description>
+			<p>This thick, scorched spellbook reeks of smoke and ozone, and sparks of energy crackles along the edges of its pages. When found, the book contains the following spells: <em>contingency, fireball, gust of wind, Leomund's tiny hut, magic missile, thunderwave,</em> and <em>wall of force.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the evocation school.</li>
+				<li>When one creature you can see takes damage from an evocation spell you cast, you can use your reaction and expend 1 charge to deal an extra 2d6 force damage to the creature and knock the creature prone if it is Large or smaller.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,evocation,prone,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Heart Weaver’s Primer" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_HEART_WEAVERS_PRIMER">
+		<description>
+			<p>This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: <em>antipathy/sympathy, charm person, dominate person, enthrall, hypnotic pattern, modify memory,</em> and <em>suggestion.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the enchantment school.</li>
+				<li>When you cast an enchantment spell, you can expend 1 charge to impose disadvantage on the first saving throw one target makes against the spell.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,enchantment,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Libram of Souls and Flesh" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_LIBRAM_OF_SOULS_AND_FLESH">
+		<description>
+			<p>With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: <em>animate dead, circle of death, false life, finger of death, speak with dead, summon undead,</em> and <em>vampiric touch.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the necromancy school.</li>
+				<li>As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,necromancy,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Planecaller’s Codex" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PLANECALLERS_CODEX">
+		<description>
+			<p>The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: <em>banishment, find familiar, gate, magic circle, planar binding,</em> and <em>summon elemental.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.</li>
+				<li>When you cast a conjuration spell that summons or creates one creature, you can expend 1 charge to grant that creature advantage on attack rolls for 1 minute.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,conjuration,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Protective Verses" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PROTECTIVE_VERSES">
+		<description>
+			<p>This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast arcane lock on it. When found, the book contains the following spells: <em>arcane lock, dispel magic, globe of invulnerability, glyph of warding, Mordenkainen's private sanctum, protection from evil,</em> and <em>symbol.</em> It functions as a spellbook for you.</p>
+			<p>While you are holding the book, you can use it as a spellcasting focus for your wizard spells.</p>
+			<p>The book has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the abjuration school.</li>
+				<li>When you cast an abjuration spell, you can expend 1 charge to grant a creature you can see within 30 feet of you 2d10 temporary hit points.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,spellbook,abjuration,wizard</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+
+<!--Shards-->
+	<element name="Astral Shard" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ASTRAL_SHARD">
+		<description>
+			<p>This crystal is a solidified shard of the Astral Plane, swirling with silver mist. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus for your sorcerer spells while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, immediately after casting the spell you can teleport to an unoccupied space you can see within 30 feet of you.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Elemental Essence Shard (Air)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ELEMENTAL_ESSENCE_SHARD_AIR">
+		<description>
+			<p>This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:</p>
+			<p><strong><em>Disengaging Flight.</em></strong> You can immediately fly up to 60 feet without provoking opportunity attacks.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Elemental Essence Shard (Earth)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ELEMENTAL_ESSENCE_SHARD_EARTH">
+		<description>
+			<p>This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:</p>
+			<p><strong><em>Earthen Embrace.</em></strong> You gain resistance to a damage type of your choice until the start of your next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Elemental Essence Shard (Fire)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ELEMENTAL_ESSENCE_SHARD_FIRE">
+		<description>
+			<p>This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:</p>
+			<p><strong><em>Igniting Fury.</em></strong> One target of the spell that you can see catches fire. The burning target takes 2d10 fire damage at the start of its next turn, and then the flames go out.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Elemental Essence Shard (Water)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_ELEMENTAL_ESSENCE_SHARD_WATER">
+		<description>
+			<p>This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use the following property:</p>
+			<p><strong><em>Repulsing Wave.</em></strong> You create a wave of water that bursts out from you in a 10-foot radius. Each creature of your choice that you can see in that area takes 2d6 cold damage and must succeed on a Strength saving throw against your spell save DC or be pushed 10 feet away from you and fall prone.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Far Realm Shard" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_FAR_REALM_SHARD">
+		<description>
+			<p>This writhing crystal is steeped in the warped essence of the Far Realm. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take 3d6 psychic damage and become frightened of you until the start of your next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,psychic,frightened,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Feywild Shard" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_Feywild_SHARD">
+		<description>
+			<p>This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the Wild Magic Surge table in the Player's Handbook. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.</p>
+			<p>If you don't have the Wild Magic Sorcerous Origin, once this property is used to roll on the Wild Magic Surge table, it can't be used again until the next dawn.</p>
+			<div class="sidebar">
+			<h5 class="caption">WILD MAGIC SURGE</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>01-02</td><td>Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.</td></tr>
+				<tr><td>03-04</td><td>For the next minute, you can see any invisible creature if you have line of sight to it.</td></tr>
+				<tr><td>05-06</td><td>A modron chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears I minute later.</td></tr>
+				<tr><td>07-08</td><td>You cast Fireball as a 3rd-level spell centered on yourself.</td></tr>
+				<tr><td>09-10</td><td>You cast Magic Missile as a 5th-level spell.</td></tr>
+				<tr><td>11-12</td><td>Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow.</td></tr>
+				<tr><td>13-14</td><td>You cast Confusion centered on yourself.</td></tr>
+				<tr><td>15-16</td><td>For the next minute, you regain 5 hit points at the start of each of your turns.</td></tr>
+				<tr><td>17-18</td><td>You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face.</td></tr>
+				<tr><td>19-20</td><td>You cast Grease centered on yourself.</td></tr>
+				<tr><td>21-22</td><td>Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw.</td></tr>
+				<tr><td>23-24</td><td>Your skin turns a vibrant shade of blue. A Remove Curse spell can end this effect.</td></tr>
+				<tr><td>25-26</td><td>An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight.</td></tr>
+				<tr><td>27-28</td><td>For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action.</td></tr>
+				<tr><td>29-30</td><td>You teleport up to 60 feet to an unoccupied space of your choice that you can see.</td></tr>
+				<tr><td>31-32</td><td>You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied.</td></tr>
+				<tr><td>33-34</td><td>Maximize the damage of the next damaging spell you cast within the next minute.</td></tr>
+				<tr><td>35-36</td><td>Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older.</td></tr>
+				<tr><td>37-38</td><td>1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute.</td></tr>
+				<tr><td>39-40</td><td>You regain 2d10 hit points.</td></tr>
+				<tr><td>41-42</td><td>You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts.</td></tr>
+				<tr><td>43-44</td><td>For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns.</td></tr>
+				<tr><td>45-46</td><td>You cast Levitate on yourself.</td></tr>
+				<tr><td>47-48</td><td>A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later.</td></tr>
+				<tr><td>49-50</td><td>You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth.</td></tr>
+				<tr><td>51-52</td><td>A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile.</td></tr>
+				<tr><td>53-54</td><td>You are immune to being intoxicated by alcohol for the next 5d6 days.</td></tr>
+				<tr><td>55-56</td><td>Your hair falls out but grows back within 24 hours.</td></tr>
+				<tr><td>57-58</td><td>For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame.</td></tr>
+				<tr><td>59-60</td><td>You regain your lowest-level expended spell slot.</td></tr>
+				<tr><td>61-62</td><td>For the next minute, you must shout when you speak.</td></tr>
+				<tr><td>63-64</td><td>You cast Fog Cloud centered on yourself.</td></tr>
+				<tr><td>65-66</td><td>Up to three creatures you choose within 30 feet of you take 4d10 lightning damage.</td></tr>
+				<tr><td>67-68</td><td>You are frightened by the nearest creature until the end of your next turn.</td></tr>
+				<tr><td>69-70</td><td>Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell.</td></tr>
+				<tr><td>71-72</td><td>You gain resistance to all damage for the next minute.</td></tr>
+				<tr><td>73-74</td><td>A random creature within 60 feet of you becomes poisoned for 1d4 hours.</td></tr>
+				<tr><td>75-76</td><td>You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn.</td></tr>
+				<tr><td>77-78</td><td>You cast Polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration.</td></tr>
+				<tr><td>79-80</td><td>Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute.</td></tr>
+				<tr><td>81-82</td><td>You can take one additional action immediately.</td></tr>
+				<tr><td>83-84</td><td>Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt.</td></tr>
+				<tr><td>85-86</td><td>You cast Mirror Image.</td></tr>
+				<tr><td>87-88</td><td>You cast Fly on a random creature within 60 feet of you.</td></tr>
+				<tr><td>89-90</td><td>You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell.</td></tr>
+				<tr><td>91-92</td><td>If you die within the next minute, you immediately come back to life as if by the Reincarnate spell.</td></tr>
+				<tr><td>93-94</td><td>Your size increases by one size category for the next minute.</td></tr>
+				<tr><td>95-96</td><td>You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute.</td></tr>
+				<tr><td>97-98</td><td>You are surrounded by faint, ethereal music for the next minute.</td></tr>
+				<tr><td>99-100</td><td>You regain all expended sorcery points.</td></tr>
+			</table>
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Outer Essence Shard (Chaotic)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_OUTER_ESSENCE_SHARD_CHAOTIC">
+		<description>
+			<p>This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.</p>
+			<p><strong><em>Chaotic Distraction.</em></strong> Choose one creature who takes damage from the spell. That target has disadvantage on attack rolls and ability checks made before the start of your next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,disadvantage,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Outer Essence Shard (Evil)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_OUTER_ESSENCE_SHARD_EVIL">
+		<description>
+			<p>This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.</p>
+			<p><strong><em>Malevolent Lash.</em></strong> Choose one creature who takes damage from the spell. That target takes an extra 3d6 necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,necrotic,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Outer Essence Shard (Good)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_OUTER_ESSENCE_SHARD_GOOD">
+		<description>
+			<p>This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.</p>
+			<p><strong><em>Benevolent Shield.</em></strong> You or one creature of your choice that you can see within 30 feet of you gains 3d6 temporary hit points.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Outer Essence Shard (Lawful)" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_OUTER_ESSENCE_SHARD_LAWFUL">
+		<description>
+			<p>This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.</p>
+			<p><strong><em>Order's Reprieve.</em></strong> You can end one of the following conditions affecting yourself or one creature you can see within 30 feet of you: <em>charmed, blinded, deafened, frightened, poisoned,</em> or <em>stunned.</em></p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Shadowfell Shard" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_SHADOWFELL_SHARD">
+		<description>
+			<p>This dull, cold crystal sits heavy and leaden, saturated by the Shadowfell's despair. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.</p>
+			<p>When you use a Metamagic option on a spell while you are holding or wearing the shard, you can momentarily curse one creature targeted by the spell; choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane focus,disadvantage,sorcerer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a sorcerer">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+<!--Instruments-->
+	<element name="Lyre of Building" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_LYRE_OF_BUILDING">
+		<description>
+			<p>While holding this lyre, you can cast <em>mending</em> as an action. You can also play the lyre as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.</p>
+			<p>In addition, you can play the lyre as an action to cast <em>fabricate, move earth, passwall,</em> or <em>summon construct,</em> and that spell can't be cast from it again until the next dawn.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MENDING" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Reveler’s Concertina" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_REVELERS_CONCERTINA">
+		<description>
+			<p>While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells.</p>
+			<p>As an action, you can use the concertina to cast <em>Otto's irresistible dance</em> from the item. This property of the concertina can't be used again until the next dawn.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_OTTOS_IRRESISTIBLE_DANCE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">bard</set>
+			<set name="category">Musical Instruments</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a bard">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="bard:spellcasting:dc" value="2" bonus="revelers concertina" />
+		</rules>
+	</element>
+
+<!--Miscellaneous Other Items-->
+	<element name="Baba Yaga’s Mortar and Pestle" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BABA_YAGAS_MORTAR_AND_PESTLE">
+		<description>
+			<p>The creations of the immortal hag Baba Yaga defy the laws of mortal magic. Among the notorious implements that cement her legend on countless worlds are the artifacts that propel her through the planes: Baba Yaga's Mortar and Pestle. These signature tools of Baba Yaga are a single artifact for purposes of attunement. Should the two objects become separated, the pestle appears next to the mortar at the next dawn.</p>
+			<p><strong><em>Random Properties.</em></strong> This artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the Dungeon Master's Guide:</p>
+			<ul>
+				<li>2 minor beneficial properties</li>
+				<li>1 major beneficial property</li>
+				<li>1 minor detrimental property</li>
+			</ul>
+			<p><strong><em>Properties of the Mortar.</em></strong> The mortar is a Tiny wooden bowl. However, the mortar increases in size to accommodate anything you place inside, expanding-if there's enough space-up to Large size, meaning it can hold even a Large creature.</p>
+			<p><strong><em>Properties of the Pestle.</em></strong> The pestle is a 6-inch-long, worn wooden tool. Once during your turn while you are holding the pestle, you can extend it into a quarterstaff or shrink it back into a pestle (no action required). As a quarterstaff, the pestle is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.</p>
+			<p class="indent">The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra 1d8 force damage for each charge expended. The pestle regains all expended charges daily at dawn.</p>
+			<p><strong><em>Perfect Tools.</em></strong> While holding the mortar and pestle, you can use your action to say the name of any nonmagical plant, mineral, or fluid and an amount of the material worth 10 gp or less. The mortar instantly fills with the desired amount of that material. Once you use this action, you can't do so again until you finish a short or long rest.</p>
+			<p class="indent">You can also use the artifact as alchemist's supplies, brewer's supplies, cook's utensils, an herbalism kit, and a poisoner's kit. You have advantage on any check you make using the artifact as one of these tools.</p>
+			<p><strong><em>Primal Parts.</em></strong> As an action while the pestle and the mortar is within 5 feet of you, you can command the pestle to grind. For the next minute, or until you use your action to verbally command it to stop, the pestle moves on its own, grinding the contents of the mortar into a mush or fine powder that's equally useful for cooking or alchemy. At the start of each of your turns, whatever is in the mortar takes 4d10 force damage. If this reduces the target's hit points to 0, the target is reduced to powder, pulp, or paste, as appropriate. Only magic items are unaffected. If you wish, when the pestle stops, you can have the mortar separate its contents-like powdered bone, crushed herbs, pulped organs-into separate piles.</p>
+			<p><strong><em>Traverse the Night.</em></strong> If you are holding the pestle while you are inside the mortar, you can use your action to verbally command the mortar to travel to a specific place or creature.</p>
+			<p class="indent">You don't need to know where your destination is, but it must be a specific destination-not just the nearest river or a red dragon's lair. If the stated destination is within 1,000 miles of you, the mortar lifts into the air and vanishes. You and any creatures in the mortar travel through a dreamlike sky, with hazy reflections of the world passing by below. Creatures might see images of you streaking through the sky between your point of origin and the destination. You arrive at the location 1 hour later or, if it is night, 1 minute later.</p>
+			<p><strong><em>Bones Know Their Home.</em></strong> When you command the mortar to travel, you can instead throw out the dust or paste of something ground by the mortar and name a location on a different plane of existence or a different world on the Material Plane. If that material came from a creature native to the named plane or world, the mortar travels through an empty night sky to an unoccupied space at that destination, arriving in 1 minute.</p>
+			<p><strong><em>Destroying the Mortar and Pestle.</em></strong> The mortar and pestle are destroyed if they are crushed underfoot by the <em>Dancing Hut of Baba Yaga</em> or by Baba Yaga herself.</p>
+		</description>
+		<setters>
+			<set name="keywords">force</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="charges">12</set>
+		</setters>
+	</element>
+	<element name="Baba Yaga’s Pestle" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BABA_YAGAS_PESTLE">
+		<description>
+			<p>The pestle is a 6-inch-long, worn wooden tool. Once during your turn while you are holding the pestle, you can extend it into a quarterstaff or shrink it back into a pestle (no action required). As a quarterstaff, the pestle is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.</p>
+			<p>The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra 1d8 force damage for each charge expended. The pestle regains all expended charges daily at dawn.</p>
+			<p><strong><em>Versatile.</em></strong> This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.</p>
+		</description>
+		<setters>
+			<set name="keywords">quarterstaff,force</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="charges">12</set>
+		</setters>
+	</element>
+	<element name="Bell Branch" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_BELL_BRANCH">
+		<description>
+			<p>This silver implement is shaped like a tree branch and is strung with small golden bells. The branch is a spellcasting focus for your spells while you hold it.</p>
+			<p>The branch has 3 charges, and it regains 1d3 expended charges daily at dawn. You can use the charges in the following ways while holding it:</p>
+			<ul>
+				<li>As a bonus action, you can expend 1 charge to detect the presence of aberrations, celestials, constructs, elementals, fey, fiends, or undead within 60 feet of you. If such creatures are present and don't have total cover from you, the bells ring softly, their tone indicating the creature types present.</li>
+				<li>As an action, you can expend 1 charge to cast <em>protection from evil and good.</em></li>
+			</ul>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">focus,druid,warlock</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0.16 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a druid or warlock">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Cauldron of Rebirth" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_CAULDRON_OF_REBIRTH">
+		<description>
+			<p>This Tiny pot bears relief scenes of heroes on its cast iron sides. You can use the cauldron as a spellcasting focus for your druid spells, and it functions as a suitable component for the <em>scrying</em> spell. When you finish a long rest, you can use the cauldron to create a <em>potion of greater healing.</em> The potion lasts for 24 hours, then loses its magic if not consumed.</p>
+			<p>As an action, you can cause the cauldron to grow large enough for a Medium creature to crouch within. You can revert the cauldron to its normal size as an action, harmlessly shunting anything that can't fit inside to the nearest unoccupied space.</p>
+			<p>If you place the corpse of a humanoid into the cauldron and cover the corpse with 200 pounds of salt (which costs 10 gp) for at least 8 hours, the salt is consumed and the creature returns to life as if by <em>raise dead</em> at the next dawn. Once used, this property can't be used again for 7 days.</p>
+		</description>
+		<setters>
+			<set name="keywords">focus,scry,druid,warlock</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0.16 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a druid or warlock">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Crook of Rao" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_CROOK_OF_RAO">
+		<description>
+			<p>Ages ago, the serene god Rao created a tool to shield his fledgling faithful against the evils of the Lower Planes. Yet, as eons passed, mortals developed their own methods of dealing with existential threats, and the crook was largely forgotten. In recent ages, though, the Crook of Rao was rediscovered and leveraged against the rising power of the Witch Queen Iggwilv (one of the names of the wizard Tasha). Although she was defeated, Iggwilv managed to damage the crook during the battle, infecting it with an insidious curse-and the potential for future victory. In the aftermath, the crook was again lost. Occasionally it reappears, but the famed artifact is not what it was. Whether or not the artifact's bearers realize its full threat, few risk using the Crook of Rao—potentially for the final time.</p>
+			<p><strong><em>Random Properties.</em></strong> The artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the Dungeon Master's Guide:</p>
+			<ul>
+				<li>2 minor beneficial properties</li>
+				<li>1 major beneficial property</li>
+				<li>1 minor detrimental property</li>
+			</ul>
+			<p><strong><em>Spells.</em></strong> The crook has 6 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: <em>aura of life</em> (2 charges), <em>aura of purity</em> (2 charges), <em>banishment</em> (1 charge), <em>beacon of hope</em> (1 charge), <em>mass cure wounds</em> (3 charges). The crook regains 1d6 expended charges daily at dawn.</p>
+			<p><strong><em>Absolute Banishment.</em></strong> While you are attuned to the crook and holding it, you can spend 10 minutes to banish all but the mightiest fiends within 1 mile of you. Any fiend with a challenge rating of 19 or higher is unaffected. Each banished fiend is sent back to its home plane and can't return to the plane the <em>Crook of Rao</em> banished it from for 100 years.</p>
+			<p><strong><em>Failing Matrix.</em></strong> Whenever the <em>Crook of Rao's</em> Absolute Banishment property is used, or when its last charge is expended, roll on the Extraplanar Reversal table. Any creatures conjured as a result of this effect appear in random unoccupied spaces within 60 feet of you and are not under your control.</p>
+			<h5 class="caption">Extraplanar Reversal</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1-25</td><td>A portal to a random plane opens. The portal closes after 5 minutes.</td></tr>
+				<tr><td>26-45</td><td>2d4 imps and 2d4 quasits appear.</td></tr>
+				<tr><td>46-60</td><td>1d8 succubi/incubi appear.</td></tr>
+				<tr><td>61-70</td><td>1d10 barbed devils and 1d10 vrocks appear.</td></tr>
+				<tr><td>71-80</td><td>1 arcanoloth, 1 night hag, and 1 rakshasa appear.</td></tr>
+				<tr><td>81-85</td><td>1 ice devil and 1 marilith appear.</td></tr>
+				<tr><td>86-90</td><td>1 balor and 1 pit fiend appear. At the DM's discretion, a portal opens into the presence of an archdevil or demon lord instead, then closes after 5 minutes.</td></tr>
+				<tr><td>91-00</td><td>Iggwilv's Curse (see the Iggwilv's Curse property).</td></tr>
+			</table>
+			<p><strong><em>Iggwilv's Curse.</em></strong> When the Crook was last used against Iggwilv, the Witch Queen lashed out at the artifact, infecting its magical matrix. Over the years, this curse has spread within the crook, threatening to violently pervert its ancient magic. If this occurs, the <em>Crook of Rao</em>, as it is currently known, is destroyed, its magical matrix inverting and exploding into a 50-foot-diameter portal. This portal functions as a permanent <em>gate</em> spell cast by Iggwilv. The gate then, once per round on initiative count 20, audibly speaks a fiend's name in Iggwilv's voice, doing so until the gate calls on every fiend ever banished by the <em>Crook of Rao</em>. If the fiend still exists, it is drawn through the gate. This process takes eighteen years to complete, at the end of which the gate becomes a permanent portal to Pazunia, the first layer of the Abyss.</p>
+			<p><strong><em>Destroying or Repairing the Crook.</em></strong> The <em>Crook of Rao</em> can either be destroyed or repaired by journeying to Mount Celestia and obtaining a tear from the eternally serene god Rao. One way to make the emotionless god cry would be to reunite Rao with the spirit of his first worshiper who sought revelations beyond the multiverse long ago. The Crook dissolves if immersed in the god's tear for a year and a day. If washed in the tear daily for 30 days, the Crook loses its Failing Matrix property.</p>
+		</description>
+		<setters>
+			<set name="keywords">gate</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="charges">6</set>
+		</setters>
+	</element>
+	<element name="Demonomicon of Iggwilv" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_DEMONOMICON_OF_IGGWILV">
+		<description>
+			<p>An expansive treatise documenting the Abyss's infinite layers and inhabitants, the Demonomicon of Iggwilv is the most thorough and blasphemous tome of demonology in the multiverse. The tome recounts both the oldest and most current profanities of the Abyss and demons. Demons have attempted to censor the text, and while sections have been ripped from the book's spine, the general chapters remain, ever revealing demonic secrets. And the book holds more than blasphemies. Caged behind lines of script roils a secret piece of the Abyss itself, which keeps the book up-to-date, no matter how many pages are removed, and it longs to be more than mere reference material.</p>
+			<p><strong><em>Random Properties.</em></strong> The artifact has the follow random properties, which you can determine by rolling on the tables in the "Artifacts" section of the Dungeon Master's Guide:</p>
+			<ul>
+				<li>2 minor beneficial properties</li>
+				<li>1 major beneficial property</li>
+				<li>1 minor detrimental property</li>
+			</ul>
+			<p><strong><em>Spells.</em></strong> The book has 8 charges. It regains 1d8 expended charges daily at dawn. While holding it, you can use an action to cast <em>Tasha's hideous laughter</em> from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: <em>magic circle</em> (1 charge), <em>magic jar</em> (3 charges), <em>planar ally</em> (3 charges), <em>planar binding</em> (2 charges), <em>plane shift</em> (to layers of the Abyss only; 3 charges), <em>summon fiend</em> (3 charges).</p>
+			<p><strong><em>Abyssal Reference.</em></strong> You can reference the <em>Demonomicon</em> whenever you make an Intelligence check to discern information about demons or a Wisdom (Survival) check related to the Abyss. When you do so, you can add double your proficiency bonus to the check.</p>
+			<p><strong><em>Fiendish Scourging.</em></strong> Your magic causes pain to fiends. While carrying the book, when you make a damage roll for a spell you cast against a fiend, you use the maximum possible result instead of rolling.</p>
+			<p><strong><em>Ensnarement.</em></strong> While carrying the book, whenever you cast the <em>magic circle</em> spell naming only fiends, or the <em>planar binding</em> spell targeting a fiend, the spell is cast at 9th level, regardless of what level spell slot you used, if any. Additionally, the fiend has disadvantage on its saving throw against the spell.</p>
+			<p><strong><em>Containment.</em></strong> The first 10 pages of the <em>Demonomicon</em> are blank. As an action while holding the book, you can target a fiend that you can see that is trapped within a magic circle. The fiend must succeed on a DC 20 Charisma saving throw with disadvantage or become trapped within one of the <em>Demonomicon's</em> empty blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.</p>
+			<p class="indent">When you finish a long rest, if you and the <em>Demonomicon</em> are on the same plane of existence, the trapped creature of the highest challenge rating within the book can attempt to possess you. You must make a DC 20 Charisma saving throw. On a failure, you are possessed by the creature, which controls you like a puppet. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, the fiend can't try to possess you again for 7 days.</p>
+			<p class="indent">When the tome is discovered, it has 1d4 fiends occupying its pages, typically an assortment of demons.</p>
+			<p><strong><em>Destroying the Demonomicon.</em></strong> To destroy the book, six different demon lords must each tear out a sixth of the book's pages. If this occurs, the pages reappear after 24 hours. Before all those hours pass, anyone who opens the book's remaining binding is transported to a nascent layer of the Abyss that lies hidden within the book. At the heart of this deadly, semi-sentient domain lies a long-lost artifact, <em>Fraz-Urb'luu's Staff.</em> If the staff is dragged from the pocket plane, the tome is reduced to a mundane and quite out-of-date copy of the <em>Tome of Zyx</em>, the work that served as the foundation for the Demonomicon. Once the staff emerges, the demon lord FrazUrb'luu instantly knows.</p>
+		</description>
+		<setters>
+			<set name="keywords">survival</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="charges">8</set>
+		</setters>
+	</element>
+	<element name="Devotee’s Censer" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_DEVOTEES_CENSER">
+		<description>
+			<p>The rounded head of this flail is perforated with tiny holes, arranged in symbols and patterns. The flail counts as a holy symbol for you. When you hit with an attack using this magic flail, the target takes an extra 1d8 radiant damage.</p>
+			<p>As a bonus action, you can speak the command word to cause the flail to emanate a thin cloud of incense out to 10 feet for 1 minute. At the start of each of your turns, you and any other creatures in the incense each regain 1d4 hit points. This property can't be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">flail,radiant,cleric,paladin</set>
+			<set name="category">Magical Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type" addition="flail">Weapon</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Flail</set>
+		</setters>
+	</element>
+	<element name="Guardian Emblem" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_GUARDIAN_EMBLEM">
+		<description>
+			<p>This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it.</p>
+			<p>The emblem has 3 charges. When you or a creature you can see within 30 feet of you suffers a critical hit while you're wearing the armor or wielding the shield that bears the emblem, you can use your reaction to expend 1 charge to turn the critical hit into a normal hit instead.</p>
+			<p>The emblem regains all expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">cleric,paladin</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0.32 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Luba’s Tarokka of Souls" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_LUBAS_TAROKKA_OF_SOULS">
+		<description>
+			<p>Not all lingering spirits are tragic souls, lost on their way to the hereafter. Some languish as prisoners, souls so wicked mortals dare not free them upon an unsuspecting afterlife.</p>
+			<p class="indent">Created by a figure of Vistani legend, <em>Luba's Tarokka of Souls</em> shaped the destiny of countless heroes. The prophecies of this deck of cards also revealed great evils and guided its creator into the path of nefarious forces. Untold times the deck's creator, Mother Luba, narrowly escaped doom, spared only by her keen insights. But even for her, not all wickedness could be escaped. In the most dire cases, Mother Luba managed to ensnare beings of pure evil amid the strands of fate, imprisoning them within her tarroka deck. There these foul spirits dwell still, trapped within a nether-realm hidden amid shuffling cards, waiting for fate to turn foul—as it inevitably will.</p>
+			<p class="indent">Like all tarokka decks, the <em>Tarokka of Souls</em> is a lavishly illustrated collection of fifty-four cards, comprising the fourteen cards of the high deck and forty other cards divided into four suits: coins, glyphs, stars, and swords.</p>
+			<p><strong><em>Random Properties.</em></strong> The artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the Dungeon Master's Guide:</p>
+			<ul>
+				<li>2 minor detrimental properties</li>
+				<li>2 minor beneficial properties</li>
+			</ul>
+			<p><strong><em>Spells.</em></strong> While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: <em>comprehend languages</em>, <em>detect evil and good</em>, <em>detect magic</em>, <em>detect poison and disease</em>, <em>locate object</em>, or <em>scrying</em>. Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn.</p>
+			<p><strong><em>Enduring Vision.</em></strong> While holding the deck, you automatically succeed on Constitution saving throws made to maintain your concentration on divination spells.</p>
+			<p><strong><em>Twist of Fate.</em></strong> As an action, you can draw a card from the deck and twist the fortune of another creature you can see within 15 feet of you. Choose one of the following effects:</p>
+			<ul>
+				<li><strong>Weal.</strong> The creature has advantage on attack rolls, ability checks, and saving throws for the next hour.</li>
+				<li><strong>Woe.</strong> The creature has disadvantage on attack rolls, ability checks, and saving throws for the next hour.</li>
+			</ul>
+			<p class="indent">The deck can be used in this way twice, and you regain all expended uses at the next dawn.</p>
+			<p><strong><em>Prisoners of Fate.</em></strong> Whenever you use the Twist of Fate property, there is a chance that one of the souls trapped in the deck escapes. Roll d100 and consult the Souls of the Tarokka table. If you roll one of the high cards, the soul associated with it escapes. You can find its statistics in the Monster Manual. If you roll a soul that has already escaped, roll again.</p>
+			<h5 class="caption">Souls of the Tarokka</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Card</td><td>Soul</td></tr>
+				</thead>
+				<tr><td>1</td><td>Artifact</td><td>Flameskull</td></tr>
+				<tr><td>2</td><td>Beast</td><td>Wraith</td></tr>
+				<tr><td>3</td><td>Broken</td><td>Banshee</td></tr>
+				<tr><td>4</td><td>Darklord</td><td>Vampire</td></tr>
+				<tr><td>5</td><td>Donjon</td><td>Mummy</td></tr>
+				<tr><td>6</td><td>Executioner</td><td>Death knight</td></tr>
+				<tr><td>7</td><td>Ghost</td><td>Ghost</td></tr>
+				<tr><td>8</td><td>Horseman</td><td>Mummy lord</td></tr>
+				<tr><td>9</td><td>Innocent</td><td>Ghost</td></tr>
+				<tr><td>10</td><td>Marionette</td><td>Mummy</td></tr>
+				<tr><td>11</td><td>Mists</td><td>Wraith</td></tr>
+				<tr><td>12</td><td>Raven</td><td>Vampire spawn</td></tr>
+				<tr><td>13</td><td>Seer</td><td>Vampire</td></tr>
+				<tr><td>14</td><td>Tempter</td><td>Vampire spawn</td></tr>
+				<tr><td>15-100</td><td>-</td><td>-</td></tr>
+			</table>
+			<p class="indent">The released soul appears at a random location within 10d10 miles of you and terrorizes the living. Until the released soul is destroyed, it gains the benefit of a weal from the deck's Twist of Fate property, and both you and the original target of Twist of Fate suffer the effect of woe.</p>
+			<p><strong><em>Shuffling Fate.</em></strong> If you go 7 days without using the Twist of Fate property, your attunement to <em>Luba's Tarroka of Souls</em> ends, and you can't attune to it again until after another creature uses Twist of Fate on you.</p>
+			<p><strong><em>Destroying the Deck.</em></strong> <em>Luba's Tarokka of Souls</em> can be destroyed only if all fourteen souls within are released and destroyed. This reveals a fifteenth soul, a lich, that inhabits the Nether card, which appears only when the fourteen souls are defeated. If this ancient entity is destroyed, the Nether card vanishes and the deck becomes a normal tarokka deck, with no special properties, but it includes a new card of the DM's design.</p>
+			<p><strong><em>Mother Luba and the Vistani.</em></strong> The creator of the <em>Tarokka of Souls</em>, Mother Luba was one of the most influential leaders of the Vistani. For untold generations, the Vistani have wandered the Shadowfell, which includes terrifying demiplanes like the vampire-haunted realm of Barovia. These travelers have learned many secrets of these domains and encountered countless others wandering amid the Shadowfell's horrors. Most Vistani bands accept well-intentioned wayfarers from diverse walks and of disparate origins, embracing any who seek to find a home amid the endless roads and vistas hidden amid the mists.</p>
+			<p class="indent">A halfling Vistani, Mother Luba led one of the largest groups of Vistani in the Shadowfell. She hailed from the same world that Count Strahd von Zarovich and Madam Eva came from, and she created a community of kindness and resilience-ever rare to find in the Plane of Shadow. She led her people in welcoming strangers, feeding the hungry, and defying the cruel. She and Madam Eva were once friends, until Madam Eva began bargaining with the creatures of the night. "We may wander amid the shadows," Mother Luba said. "But we must ever serve as a light to our fellow travelers."</p>
+			<p class="indent">Some years ago, Mother Luba disappeared into the mists, leaving behind only the <em>Tarokka of Souls</em>. It is said that if you draw the Mists card from it, you can hear the whispers of her kind voice.</p>
+		</description>
+		<setters>
+			<set name="keywords">divination</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Mighty Servant of Leuk-o" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_MIGHTY_SERVANT_OF_LEUK_O">
+		<description>
+			<p>Named for the warlord who infamously employed it, the <em>Mighty Servant of Leuk-o</em> is a fantastically powerful, 10-foot-tall machine that turns into an animate construct when piloted. Crafted of a gleaming black alloy of unknown origin, the servant is often described as a combination of a disproportioned dwarf and an oversized beetle. The servant contains enough space for 1 ton of cargo and a crew compartment within, from which up to two Medium creatures can control it-and potentially execute a spree of unstoppable destruction.</p>
+			<p class="indent">Tales of the servant's origins involve more conjecture than fact, often referring to otherworldly beings, the mysterious Barrier Peaks in Oerth, and the supposedly related device known as the <em>Machine of Lum the Mad</em>. The best details on the device's origins and operation can be found in the <em>Mind of Metal</em>, a tome of artificer's secrets that connects the device to the traditions of the lost Olman people, and which was written by Lum the Mad's several times over granddaughter, Lum the Maestro, while she reconstructed the long disassembled <em>Mighty Servant of Leuk-o</em>.</p>
+			<p><strong><em>Dangerous Attunement.</em></strong> Two creatures can be attuned to the servant at a time. If a third creature tries to attune to it, nothing happens.</p>
+			<p class="indent">The servant's controls are accessed by a hatch in its upper back, which is easily opened while there are no creatures attuned to the artifact.</p>
+			<p class="indent">Attuning to the artifact requires two hours, which can be undertaken as part of a long rest, during which time you must be inside the servant, interacting with its controls. While crew members are attuning themselves, any creature or structure outside and within 50 feet of the servant has a 25 percent chance of being accidentally targeted by one of its Destructive Fist attacks once during the attunement. This process must be undergone every time a creature attunes itself to the artifact.</p>
+			<p><strong><em>Controlling the Servant.</em></strong> While any creatures are attuned to the artifact, attuned creatures can open the hatch as easily as any other door. Other creatures can open the hatch as an action with a successful DC 25 Dexterity check using thieves' tools. A knock spell cast on the hatch also opens it until the start of the caster's next turn.</p>
+			<p class="indent"> A creature can enter or exit through the hatch by spending 10 feet of movement. Those inside the servant have total cover from effects originating outside it. The controls within it allow creatures to see outside without obstruction.</p>
+			<p class="indent"> While you are inside the servant, you can command it by using the controls. During your turn (for either attuned creature), you can command it in the following ways:</p>
+			<ul>
+				<li>Open or close the hatch (no action required, once per turn)</li>
+				<li>Move the servant up to its speed (no action required)</li>
+				<li>As an action, you can command the servant to take one of the actions in its stat block or some other action.</li>
+				<li>When a creature provokes an opportunity attack from the servant, you can use your reaction to command the servant to make one Destructive Fist attack against that creature.</li>
+			</ul>
+			<p class="indent">While there are no attuned creatures inside the servant, it is an inert object.</p>
+			<p><strong><em>Ghost in the Machine.</em></strong> Upon his death, the soul of the mighty warlord Leuk-o was drawn into the artifact and has become its animating force. The servant has been known to attack or move of its own accord, particularly if doing so will cause destruction. Once every 24 hours, the servant, at the DM's discretion, takes one action while uncrewed.</p>
+			<p class="indent"> If the servant loses half of its hit points or more, each creature attuned to it must succeed on a DC 20 Wisdom saving throw or be charmed for 24 hours. While charmed in this way, the creature goes on a destructive spree, seeking to destroy structures and attack any unattuned creatures within sight of the servant, starting with those threatening the artifact-preferably using the servant, if possible.</p>
+			<p><strong><em>Self-Destruct.</em></strong> By inputting a specific series of lever pulls and button presses, the servant's two crew members can cause it to explode. The self-destruct code is not revealed to crew members when they attune to the artifact. If the code is discovered (the DM determines how), it requires two attuned crew members to be inside the servant and spend their actions on 3 consecutive rounds performing the command. Should the crew members begin the process of entering the code, though, the servant uses its Ghost in the Machine property and turns the crew members against each other.</p>
+			<p class="indent">If the crew members successfully implement the code, at the end of the third round, the servant explodes. Every creature in a 100-foot-radius sphere centered on the servant must make a DC 25 Dexterity saving throw. On a failed save, a creature takes 87 (25d6) force damage, 87 (25d6) lightning damage, and 87 (25d6) thunder damage. On a successful save, a creature takes half as much damage. Objects and structures in the area take triple damage. Creatures inside the servant are slain instantly and leave behind no remains.</p>
+			<p class="indent">This does not destroy the servant permanently. Rather, 2d6 days later, its parts—left arm, left leg, right arm, right leg, lower torso, and upper torso—drop from the sky in random places within 1,000 miles of the explosion. If brought within 5 feet of one another, the pieces reconnect and reform the servant.</p>
+			<p><strong><em>Destroying the Servant.</em></strong> The servant can be destroyed in two ways. After it has self-destructed, its disconnected pieces can be melted down in one of the forge-temples of its ancient Olman creators. Alternatively, if the servant strikes the Machine of Lum the Mad, both artifacts explode in an eruption that is three times the size and three times the damage as the servant's self-destruct property.</p>
+		<div class="reference">
+			<div element="ID_WOTC_TCOE_INFORMATION_MIGHTY_SERVANT_OF_LEUK_O_STATBLOCK" />
+		</div>
+		</description>
+		<setters>
+			<set name="keywords">divination</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Nature’s Mantle" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_NATURES_MANTLE">
+		<description>
+			<p>This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells.</p>
+			<p>While you are in an area that is lightly obscured, you can Hide as a bonus action even if you are being directly observed.</p>
+		</description>
+		<setters>
+			<set name="keywords">druid,ranger,hide</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement" addition="by a cleric or paladin">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Prosthetic Limb" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_PROSTHETIC_LIMB">
+		<description>
+			<p>This item replaces a lost limb-a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can't be removed against your will. It detaches if you die.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">common</set>
+		</setters>
+	</element>
+	<element name="Teeth of Dahlver-Nar" type="Magic Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_MAGIC_ITEM_TEETH_OF_DAHLVER_NAR">
+		<description>
+			<p>The <em>Teeth of Dahlver-Nar</em> are stories given form. They are a collection of teeth, each suggestive of wildly different origins and made from various materials. The collection rests within a leather pouch, stitched with images of heroes and whimsical creatures. Where the teeth fall, they bring legends to life.</p>
+			<p><strong><em>Using the Teeth.</em></strong> While you are holding the pouch, you can use an action to draw one tooth. Roll on the <em>Teeth of Dahlver-Nar</em> table to determine which tooth you draw, and you can either sow the tooth or implant it (both of which are described later).</p>
+			<p class="indent">If you don't sow or implant the tooth, roll a die at the end of your turn. On an even number, the tooth vanishes, and creatures appear as if you sowed the tooth, but they are hostile to you and your allies. On an odd number, the tooth replaces one of your teeth as if you implanted it (potentially replacing another implanted tooth, see below).</p>
+			<p class="indent">Each tooth can only be used once. Track which teeth have been used. If a tooth's result is rolled after it's been used, you draw the next lowest unused tooth on the table.</p>
+			<h5 class="caption">Teeth of Dahlver-Nar</h5>
+			<table>
+				<thead>
+					<tr><td>d20</td><td>Tale and Tooth</td><td>Creatures Summoned</td><td>Implanted Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td>The Staring Cats of Uldun-dar (ivory cat molar)</td><td>9 cats</td><td>The tooth has 8 charges. As an action, you can expend 1 charge to cast the revivify spell from the tooth. If you are dead at the start of your turn, the tooth expends 1 charge and casts revivify on you.</td></tr>
+				<tr><td>2</td><td>Duggle's Surprising Day (human molar)</td><td>1 commoner</td><td>When you finish a long rest, the tooth casts sanctuary (DC 18) on you, and the spell lasts for 24 hours or until you break it.</td></tr>
+				<tr><td>3</td><td>The Golden Age of Dhakaan (golden goblin bicuspid)</td><td>10 goblins, 1 goblin boss</td><td>When you are hit by an attack and an ally is within 5 feet of you, you can use your reaction to cause them to be hit instead. You can't use this reaction again until you finish a short or long rest.</td></tr>
+				<tr><td>4</td><td>The Mill Road Murders (halfling canine)</td><td>3 green hags in a coven</td><td>When you damage a target that hasn't taken a turn in this combat, the target takes an extra 3d10 slashing damage from ghostly blades.</td></tr>
+				<tr><td>5</td><td>Dooms of the Malpheggi (emerald lizardfolk fang)</td><td>1 lizardfolk queen and 4 lizardfolk</td><td>You gain reptilian scales, granting you a +2 bonus to your AC. Additionally, when you finish a long rest, you must succeed on a DC 15 Constitution saving throw or gain 1 level of exhaustion.</td></tr>
+				<tr><td>6</td><td>The Stable Hand's Secret (sweet-tasting human canine)</td><td>2 incubi</td><td>When you make a Charisma check against a humanoid, you can roll a d10 and add the number rolled as a bonus to the result. The creature then becomes hostile to you at the next dawn.</td></tr>
+				<tr><td>7</td><td>The Donkey's Dream (rainbow-colored donkey molar)</td><td>1 unicorn</td><td>The tooth has 3 charges. As an action, you can expend 1 charge to touch a creature. The target regains 2d8 + 2 hit points, and all diseases and poisons affecting it are removed. When you use this action, a shimmering image of a unicorn's horn appears until the end of your turn, sprouting from your forehead. The tooth regains all expended charges daily at dawn. You gain the following flaw: "When I see wickedness in action, I must oppose it."</td></tr>
+				<tr><td>8</td><td>Beyond the Rock of Bral (silver mind flayer tooth)</td><td>2 mind flayers</td><td>You gain telepathy out to 120 feet as described in the Monster Manual, and you can cast the detect thoughts spell at will, requiring no components. You also have disadvantage on Wisdom (Insight) and Wisdom (Perception) checks from constant whispers of memories and nearby minds.</td></tr>
+				<tr><td>9</td><td>The Disappearances of Half Hollow (vomerine tooth of a Large toad)</td><td>4 giant toads</td><td>Your long jump is up to 30 feet and your high jump is up to 15 feet, with or without a running start.</td></tr>
+				<tr><td>10</td><td>Legendry of Phantoms and Ghosts (obsidian human molar)</td><td>1 giant octopus, 1 mage, 1 specter</td><td>As an action, you can use the tooth to cast the Evard's black tentacles spell (DC 18). Once this property is used, it can't be used again until the next dawn.</td></tr>
+				<tr><td>11</td><td>The Thousand Deaths of Jander Sunstar (yellowed vampire fang)</td><td>1 vampire</td><td>You can make a bite attack as an unarmed strike. On a hit, it deals 1d6 piercing damage plus 3d6 necrotic damage. You regain a number of hit points equal to the necrotic damage dealt. While you are in sunlight, you can't regain hit points.</td></tr>
+				<tr><td>12</td><td>Nightmares of Kaggash (twisted beholder tooth)</td><td>1 beholder</td><td>As an action, you can cast the eyebite spell from the tooth. Once you use this action, it can't be used again until the next dawn. Whenever you finish a long rest, roll a d20. On a 20, an aberration chosen by the DM appears within 30 feet of you and attacks.</td></tr>
+				<tr><td>13</td><td>Three Bridges to the Sky (lapis lazuli oni fang)</td><td>3 oni</td><td>You gain a flying speed of 30 feet, and you can use the tooth to cast the detect magic spell at will. While you are attuned to fewer than 3 magic items, you gain 1 level of exhaustion that can't be removed until you are attuned to three or more magic items.</td></tr>
+				<tr><td>14</td><td>The Claws of Dragotha (broken translucent fang)</td><td>1 adult red dracolich</td><td>You can use the tooth to cast the create undead spell. Once this property is used, it can't be used again until the next dawn. Each time you create an undead creature using the tooth, a skeleton, zombie, or ghoul also appears at a random location within 5 miles of you, searching for the living to kill. A humanoid killed by these undead rises as the same type of undead at the next midnight.</td></tr>
+				<tr><td>15</td><td>Ashes of the Ages and Eternal Fire (jade humanoid bicuspid)</td><td>1 dao, 1 djinni, 1 efreeti, 1 marid</td><td>You can use the tooth to cast counterspell at 9th level. Once you use this property, it can't be used again until the next dawn. Whenever you finish a long rest, if you haven't used the tooth to counter a spell since your last long rest, your hit point maximum is reduced by 2d10. If this reduces your hit point maximum to 0, you die.</td></tr>
+				<tr><td>16</td><td>Daughters of Bel (green steel pit fiend fang)</td><td>1 pit fiend</td><td>You can use the tooth to cast dominate monster (DC 18). Once you use this property, it can't be used again until the next dawn. You smell strongly of burning sulfur.</td></tr>
+				<tr><td>17</td><td>Why the Sky Screams (blue dragon fang)</td><td>1 ancient blue dragon</td><td>You gain immunity to lightning damage and vulnerability to thunder damage.</td></tr>
+				<tr><td>18</td><td>The Last Tarrasque (jagged sliver of tarrasque tooth)</td><td>1 tarrasque (ignores you and your commands appears for 1d4 rounds then vanishes)</td><td>You deal double damage to objects and structures. If you take 20 or more damage in one turn, you must succeed on a DC 18 Wisdom saving throw or spend your next turn in a murderous fury. During this rage, you must use your action to make an unarmed strike against a creature that damaged you, or a random creature you can see if you weren't damaged by a creature, moving as close as you can to the target if necessary.</td></tr>
+				<tr><td>19</td><td>Incendax's Tooth (ruby-veined red dragon fang)</td><td>1 ancient red dragon</td><td>You gain immunity to fire damage, and as an action, you can exhale fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 26d6 fire damage on a failed save, or half as much damage on a successful one. After using the breath weapon, you gain 2 levels of exhaustion.</td></tr>
+				<tr><td>20</td><td>Dahlver-Nar's Tooth (dusty human molar)</td><td>1 priest</td><td>As an action you can call on a divine force to come to your aid. Describe the assistance you seek, and the DM decides the nature of the intervention (the effect of any cleric spell would be appropriate). Once this property is used, it can't be used again for 7 days.</td></tr>
+			</table>
+			<p><strong><em>Sowing Teeth.</em></strong> To sow the tooth, you place it on the ground in an unoccupied space within your reach, or you throw it into an unoccupied space within 10 feet of you in a body of water that is at least 50 feet wide and 50 feet long. Upon doing so, the tooth burrows into the ground and vanishes, leaving no hole behind, or it vanishes into the water. The creatures noted in the Creatures Summoned column appear in an unoccupied space as close to where the tooth was sown as possible. The creatures are allies to you, speak all languages you speak, and linger for 10 minutes before disappearing, unless otherwise noted.</p>
+			<p><strong><em>Implanting Teeth.</em></strong> To implant the tooth, you place it in your mouth, whereupon one of your own teeth falls out, and the drawn tooth takes its place, resizing to fit in your mouth. Once the tooth is implanted, you gain the effect noted in the Implanted Effect column. The tooth can't be removed while you are attuned to the teeth, and you can't voluntarily end your attunement to them. If removed after your death, the tooth vanishes. You can have a maximum number of the teeth implanted at one time equal to 1 + your Constitution modifier (minimum of 2 teeth total). If you try to implant more teeth, the newly implanted tooth replaces one of the previous teeth, determined randomly. The replaced tooth vanishes, and you lose the implanted effect.</p>
+			<p><strong><em>Recovering Teeth.</em></strong> Once all the teeth have vanished, their pouch also vanishes. The pouch with all the teeth then appears in a random destination, which could be on a different world of the Material Plane.</p>
+			<p><strong><em>Destroying the Teeth.</em></strong> Each tooth must be destroyed individually by sowing it in the area where the tooth's story originated, with the intention to destroy it. When planted in this way, creatures summoned are not friendly to you and do not vanish. Some of the creatures summoned merely head off in search of home, while others act as their tales dictate. In either case, the tooth is gone forever.</p>
+		</description>
+		<setters>
+			<set name="keywords">teeth</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+
+<!--Mighty Servant of Leuk-o Statblock-->
+	<element name="Mighty Servant of Leuk-o" type="Information" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_INFORMATION_MIGHTY_SERVANT_OF_LEUK_O_STATBLOCK">
+		<description>
+			<p><em>Huge construct, unaligned</em></p>
+			<ul class="unstyled mb">
+				<li><strong>Armor Class.</strong> 22 (natural armor)</li>
+				<li><strong>Hit Points.</strong> 310 (27d12 + 135)</li>
+				<li><strong>Speed.</strong> 60 ft</li>
+			</ul>
+			<table style="text-align:center">
+				<thead>
+					<tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr>
+				</thead>
+					<tr><td>30 (+10)</td><td>14 (+2)</td><td>20 (+5)</td><td>1 (-5)</td><td>14 (+2)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><strong>Saving Throws</strong> Wis +9, Cha +7</li>
+				<li><strong>Skills.</strong> Perception +9</li>
+				<li><strong>Damage Resistances.</strong> piercing, slashing</li>
+				<li><strong>Damage Immunities.</strong> acid, bludgeoning, cold, fire, lightning, necrotic, poison, psychic, radiant</li>
+				<li><strong>Condition Immunities.</strong> blinded, charmed, deafened, frightened, grappled, incapacitated, paralyzed, petrified, poisoned, restrained, stunned</li>
+				<li><strong>Senses.</strong> blindsight 120 ft., passive Perception 19</li>
+				<li><strong>Languages.</strong> understands the languages of creatures attuned to it but can't speak</li>
+			</ul>
+			<p><strong><em>Immutable Existence.</em></strong> The servant is immune to any spell or effect that would alter its form or send it to another plane of existence.</p>
+			<p><strong><em>Magic Resistance.</em></strong> The servant has advantage on saving throws against spells and other magical effects, and spell attacks made against it have disadvantage.</p>
+			<p><strong><em>Regeneration.</em></strong> The servant regains 10 hit points at the start of its turn. If it is reduced to 0 hit points, this trait doesn't function until an attuned creature spends 24 hours repairing the artifact or until the artifact is subjected to lightning damage.</p>
+			<p><strong><em>Standing Leap.</em></strong> The servant's long jump is up to 50 feet and its high jump is up to 25 feet, with or without a running start.</p>
+			<p><strong><em>Unusual Nature.</em></strong> The servant doesn't require air, food, drink, or sleep.</p>
+			<h5 class="caption">ACTIONS</h5>
+			<p><strong><em>Destructive Fist (Melee).</em></strong>  <em>Melee Weapon Attack:</em> +17 to hit, reach 10 ft., one target.  <em>Hit:</em> 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage.</p>
+			<p><strong><em>Destructive Fist (Ranged).</em></strong>  <em>Ranged Weapon Attack:</em> +17 to hit, range 120 ft., one target.  <em>Hit:</em> 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage.</p>
+			<p><strong><em>Crushing Leap.</em></strong> If the servant jumps at least 25 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures is pushed to an unoccupied space within 5 feet of the servant and must make a DC 25 Dexterity saving throw. On a failed save, a creature takes 26 (4d12) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</p>
+    </description>
+  </element>
+</elements>
