@@ -4,7 +4,7 @@
     <name>Tasha’s Cauldron of Everything</name>
 	<description>The wizard Tasha, whose great works include the spell <em>Tasha’s Hideous Laughter</em>, has gathered bits and bobs of precious lore during her illustrious career as an adventurer. Her enemies wouldn’t want these treasured secrets scattered across the multiverse, so in defiance, she has collected and codified these tidbits for the enrichment of all.</description>
 		<author url="https://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Wizards of the Coast</author>
-		<update version="0.1.21">
+		<update version="0.1.22">
 			<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything.index" />
 		</update>
   </info>
@@ -16,14 +16,18 @@
 	<file name="barbarian-beast.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-beast.xml" />
 	<file name="barbarian-wildmagic.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/barbarian-wildmagic.xml" />
 	<file name="bard-creation.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/bard-creation.xml" />
+	<file name="bard-eloquence.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/bard-eloquence.xml" />
+	<file name="cleric-orderdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-orderdomain.xml" />
 	<file name="cleric-peacedomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-peacedomain.xml" />
 	<file name="cleric-twilightdomain.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/cleric-twilightdomain.xml" />
+	<file name="druid-spores.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-spores.xml" />
 	<file name="druid-stars.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-stars.xml" />
 	<file name="druid-wildfire.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/druid-wildfire.xml" />
 	<file name="fighter-psiwarrior.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-psiwarrior.xml" />
 	<file name="fighter-runeknight.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/fighter-runeknight.xml" />
 	<file name="monk-astralself.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/monk-astralself.xml" />
 	<file name="monk-mercy.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/monk-mercy.xml" />
+	<file name="paladin-glory.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/paladin-glory.xml" />
 	<file name="paladin-watchers.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/paladin-watchers.xml" />
 	<file name="ranger-feywanderer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-feywanderer.xml" />
 	<file name="ranger-swarmkeeper.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/ranger-swarmkeeper.xml" />
@@ -33,8 +37,14 @@
 	<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.xml" />
 	<file name="warlock-fathomless.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-fathomless.xml" />
 	<file name="warlock-genie.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/warlock-genie.xml" />
+	<file name="wizard-bladesinging.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-bladesinging.xml" />	  
 	<file name="wizard-scribes.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-scribes.xml" />	  
 	  
+<!--Fighting Styles, Combat Maneuvers, Metamagic, Pact Boons, Invocations-->
+	  <file name="class-fighter.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-fighter.xml" />
+	  <file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-sorcerer.xml" />
+	  <file name="class-warlock.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-warlock.xml" />
+
 <!--Items, Spells, etc. -->
     <file name="feats.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/feats.xml" />
     <file name="items-wondrous.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/items-wondrous.xml" />
