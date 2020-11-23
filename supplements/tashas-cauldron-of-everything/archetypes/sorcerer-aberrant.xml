@@ -4,7 +4,7 @@
 		<name>Aberrant Mind</name>
 		<description>The Aberrant Mind Sorcerous Origin from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.1.7">
+		<update version="0.1.8">
 			<file name="sorcerer-aberrant.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-aberrant.xml" />
 		</update>
 	</info>
@@ -52,17 +52,17 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER" level="1" spellcasting="Sorcerer" />
-			<grant type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" level="1" spellcasting="Sorcerer" replace="true" supports="1,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="1" spellcasting="Sorcerer" replace="true" supports="1,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="3" spellcasting="Sorcerer" replace="true" supports="2,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="3" spellcasting="Sorcerer" replace="true" supports="2,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_HUNGER_OF_HADAR" level="5" spellcasting="Sorcerer" replace="true" supports="3,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_SENDING" level="5" spellcasting="Sorcerer" replace="true" supports="3,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
-			<grant type="Spell" id="ID_PHB_SPELL_TELEKINESIS" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Divination||Enchantment),(Sorcerer||Warlock||Wizard)"/>
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_ARMS_OF_HADAR" level="1" default="ID_PHB_SPELL_ARMS_OF_HADAR" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_DISSONANT_WHISPERS" level="1" default="ID_PHB_SPELL_DISSONANT_WHISPERS" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)" level="1" default="ID_WOTC_TCOE_SPELL_MIND_SLIVER" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_CALM_EMOTIONS" level="3" default="ID_PHB_SPELL_CALM_EMOTIONS" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)" level="3" default="ID_PHB_SPELL_DETECT_THOUGHTS" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_HUNGER_OF_HADAR" level="5" default="ID_PHB_SPELL_HUNGER_OF_HADAR" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_SENDING" level="5" default="ID_PHB_SPELL_SENDING" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" default="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION" level="7" default="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)" level="9" default="ID_PHB_SPELL_RARYS_TELEPATHIC_BOND" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Psionic Spells" supports="(Divination||Enchantment),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_TELEKINESIS" level="9" default="ID_PHB_SPELL_TELEKINESIS" spellcasting="Sorcerer" />
 		</rules>
 	</element>
 	<element name="Telepathic Speech" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SORCERER_ARCHETYPE_FEATURE_ABERRANT_MIND_TELEPATHIC_SPEECH">
