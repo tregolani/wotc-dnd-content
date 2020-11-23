@@ -4,7 +4,7 @@
 		<name>Spells</name>
 		<description>New Spells and Expanded Class Spell Lists from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.2.9">
+		<update version="0.2.10">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/tashas-cauldron-everything/spells.xml"/>
 		</update>
 	</info>
@@ -198,7 +198,7 @@
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">1 round</set>
-			<set name="range">Self (5 foot radius)</set>
+			<set name="range">Self (5-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -645,7 +645,7 @@
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">Self (5 foot radius)</set>
+			<set name="range">Self (5-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
@@ -776,7 +776,7 @@
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">Self (15 foot radius)</set>
+			<set name="range">Self (15-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1032,7 +1032,7 @@
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">Self (60 foot cone)</set>
+			<set name="range">Self (60-foot cone)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1209,7 +1209,7 @@
 			<set name="level">3</set>
 			<set name="school">Necromancy</set>
 			<set name="time">1 bonus action</set>
-			<set name="range">90 feet</set>
+			<set name="range">Self</set>
 			<set name="duration">Concentration, up to 1 minute</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
@@ -1496,7 +1496,7 @@
 			<set name="school">Conjuration</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
-			<set name="range">5 feet</set>
+			<set name="range">Self (5-foot radius)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
@@ -1537,7 +1537,7 @@
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Concentration, up to 1 minute</set>
-			<set name="range">Self (30 foot line)</set>
+			<set name="range">Self (30-foot line)</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
