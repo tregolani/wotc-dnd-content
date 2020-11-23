@@ -4,7 +4,7 @@
 		<name>Clockwork Soul</name>
 		<description>The Clockwork Soul Sorcerous Origin from Tasha’s Cauldron of Everything</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="sorcerer-clockwork.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/sorcerer-clockwork.xml" />
 		</update>
 	</info>
@@ -59,16 +59,16 @@
 		</description>
         <sheet display="false" />
         <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_ALARM" level="1" spellcasting="Sorcerer" replace="true" supports="1,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" level="1" spellcasting="Sorcerer" replace="true" supports="1,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_AID" level="3" spellcasting="Sorcerer" replace="true" supports="2,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="3" spellcasting="Sorcerer" replace="true" supports="2,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" level="5" spellcasting="Sorcerer" replace="true" supports="3,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" level="5" spellcasting="Sorcerer" replace="true" supports="3,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT" level="7" spellcasting="Sorcerer" replace="true" supports="4,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
-            <grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FORCE" level="9" spellcasting="Sorcerer" replace="true" supports="5,(Abjuration||Transmutation),(Sorcerer||Warlock||Wizard)"/>
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)" level="1" default="ID_PHB_SPELL_ALARM" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)" level="1" default="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_AID" level="3" default="ID_PHB_SPELL_AID" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_LESSER_RESTORATION" level="3" default="ID_PHB_SPELL_LESSER_RESTORATION" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)" level="5" default="ID_PHB_SPELL_DISPEL_MAGIC" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)" level="5" default="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" default="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)||ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT" level="7" default="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_GREATER_RESTORATION" level="9" default="ID_PHB_SPELL_GREATER_RESTORATION" spellcasting="Sorcerer" />
+			<select type="Spell" name="Spell, Clockwork Magic" supports="(Abjuration||Transmutation),(($(spellcasting:list))||Warlock||Wizard)||ID_PHB_SPELL_WALL_OF_FORCE" level="9" default="ID_PHB_SPELL_WALL_OF_FORCE" spellcasting="Sorcerer" />
 		</rules>
 	</element>
 	<element name="Restore Balance" type="Archetype Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_CLOCKWORK_RESTORE_BALANCE">
