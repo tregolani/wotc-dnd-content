@@ -4,7 +4,7 @@
     <name>Tasha’s Cauldron of Everything</name>
 	<description>The wizard Tasha, whose great works include the spell <em>Tasha’s Hideous Laughter</em>, has gathered bits and bobs of precious lore during her illustrious career as an adventurer. Her enemies wouldn’t want these treasured secrets scattered across the multiverse, so in defiance, she has collected and codified these tidbits for the enrichment of all.</description>
 		<author url="https://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Wizards of the Coast</author>
-		<update version="0.1.22">
+		<update version="0.1.23">
 			<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything.index" />
 		</update>
   </info>
@@ -41,9 +41,11 @@
 	<file name="wizard-scribes.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/archetypes/wizard-scribes.xml" />	  
 	  
 <!--Fighting Styles, Combat Maneuvers, Metamagic, Pact Boons, Invocations-->
+ 	  <file name="class-artificer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-artificer.xml" />
 	  <file name="class-fighter.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-fighter.xml" />
 	  <file name="class-sorcerer.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-sorcerer.xml" />
 	  <file name="class-warlock.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/class-warlock.xml" />
+	  <file name="replicate-infusions.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/replicate-infusions.xml" />
 
 <!--Items, Spells, etc. -->
     <file name="feats.xml" url="https://raw.githubusercontent.com/tregolani/wotc-dnd-content/main/supplements/tashas-cauldron-of-everything/feats.xml" />
